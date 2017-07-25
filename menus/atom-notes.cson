@@ -1,0 +1,18 @@
+menu: [
+  {
+    label: 'Packages'
+    submenu: [
+      label: 'Atom Notes'
+      submenu: [
+        {
+          label: 'Toggle'
+          command: 'atom-notes:toggle'
+        }
+        {
+          label: 'Open Interlink'
+          command: 'atom-notes:interlink'
+        }
+      ]
+    ]
+  }
+]

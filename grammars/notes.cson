@@ -1,5 +1,5 @@
-'name': 'nvAtom Github Markdown'
-'scopeName': 'source.gfm.nvatom'
+'name': 'Atom Notes'
+'scopeName': 'source.gfm.notes'
 'patterns': [
   {
     'include': 'source.gfm'
