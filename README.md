@@ -100,4 +100,5 @@ improvements.
 [nvatom]:           https://github.com/seongjaelee/nvatom
 [nv]:               http://notational.net/
 [md]:               http://daringfireball.net/projects/markdown/
+[keymaps]:          http://flight-manual.atom.io/using-atom/sections/basic-customization/#customizing-keybindings
 [screencast]:       https://user-images.githubusercontent.com/1903876/28631701-bff918c6-71f3-11e7-9495-067699fd1951.gif
