@@ -69,7 +69,7 @@ If you'd like to take a stab at improving this package, please check out the fol
 improvements.
 
 - A better screencast animated gif. I can't figure out how to make one that looks good.
-- Autocomplete a user's query as they type if their query prefix matches an existing note.
+- Refactor autocomplete to be less hacky -- add support to [`atom-select-list`][atom-select-list]?
 - Use async to ensure the notes directory in then background.
 - Use async to start loading documents in background at package activation time.
 - Any improvements to package activation time are welcome.
@@ -102,3 +102,4 @@ improvements.
 [md]:               http://daringfireball.net/projects/markdown/
 [keymaps]:          http://flight-manual.atom.io/using-atom/sections/basic-customization/#customizing-keybindings
 [screencast]:       https://user-images.githubusercontent.com/1903876/28631701-bff918c6-71f3-11e7-9495-067699fd1951.gif
+[atom-select-list]: https://github.com/atom/atom-select-list
