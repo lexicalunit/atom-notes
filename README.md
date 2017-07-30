@@ -89,14 +89,15 @@ requests and triage any issues you're having. Please
 [report your issues][issues]!
 
 If you'd like to take a stab at improving this package, please check out
-the following list of improvements.
+the following list of possible improvements.
 
 - A better screencast animated gif.
 - Refactor autocomplete to be less hacky -- add support to
-  [`atom-select-list`][atom-select-list]?
-- Use async to ensure the notes directory in then background.
+  [`atom-select-list`][autocomplete]?
+- Use async to ensure the notes directory in the background.
 - Start loading documents in background at package activation time.
 - Any improvements to package activation time are welcome.
+- Write more spec tests!
 
 ---
 
@@ -126,6 +127,6 @@ the following list of improvements.
 [md]:               http://daringfireball.net/projects/markdown/
 [keymaps]:          http://flight-manual.atom.io/using-atom/sections/basic-customization/#customizing-keybindings
 [screencast]:       https://user-images.githubusercontent.com/1903876/28757512-67bb005c-754a-11e7-99bd-5babb98ac056.gif
-[atom-select-list]: https://github.com/atom/atom-select-list
+[autocomplete]:     https://github.com/atom/atom-select-list/issues/12
 [nvalt]:            http://brettterpstra.com/projects/nvalt/
 [dropbox]:          https://www.dropbox.com
