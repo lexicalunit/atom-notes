@@ -32,6 +32,8 @@ Embedding these features in Atom provides the following advantages.
 - **Use Other Packages** - Such as Markdown Preview and Minimap.
 - **Multi-OS** - You can use it in macOS, Linux, and Windows.
 
+With no new updates to [Notational Velocity][nv] in years, some users
+are searching for alternatives with more features. For example Evernote.
 We do not believe Evernote is a good alternative to
 [Notational Velocity][nv]. Advantages over Evernote are:
 
@@ -39,6 +41,9 @@ We do not believe Evernote is a good alternative to
 - **No Rich Text** - Instead, you get to use [Markdown][md]!
 - **Sync Wherever You Want** - You can save notes locally, in Dropbox,
   or in Google Drive.
+
+Other solutions such as [nvALT][nvalt] are stand-alone applications which
+don't have the same synergy with Atom as Atom Notes provides.
 
 ## ☁️ Synchronization / Cloud Storage
 
@@ -122,3 +127,5 @@ the following list of improvements.
 [keymaps]:          http://flight-manual.atom.io/using-atom/sections/basic-customization/#customizing-keybindings
 [screencast]:       https://user-images.githubusercontent.com/1903876/28757512-67bb005c-754a-11e7-99bd-5babb98ac056.gif
 [atom-select-list]: https://github.com/atom/atom-select-list
+[nvalt]:            http://brettterpstra.com/projects/nvalt/
+[dropbox]:          https://www.dropbox.com
