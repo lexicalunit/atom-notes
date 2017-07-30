@@ -34,7 +34,7 @@ We do not believe Evernote is a good successor to Notational Velocity. Advantage
 
 - **Open Source**
 - **No Rich Text** - Instead, you get to use [Markdown][md]!
-- **Sync Whereever You Want** - You can save notes locally, in Dropbox, or in Google Drive.
+- **Sync Wherever You Want** - You can save notes locally, in Dropbox, or in Google Drive.
 
 # Keybindings
 
