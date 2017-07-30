@@ -101,5 +101,5 @@ improvements.
 [nv]:               http://notational.net/
 [md]:               http://daringfireball.net/projects/markdown/
 [keymaps]:          http://flight-manual.atom.io/using-atom/sections/basic-customization/#customizing-keybindings
-[screencast]:       https://user-images.githubusercontent.com/1903876/28631701-bff918c6-71f3-11e7-9495-067699fd1951.gif
+[screencast]:       https://user-images.githubusercontent.com/1903876/28757415-3b03bec0-7548-11e7-917a-2d20b266de93.gif
 [atom-select-list]: https://github.com/atom/atom-select-list
