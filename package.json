@@ -18,7 +18,7 @@
   "repository": "https://github.com/lexicalunit/atom-notes",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.19.0 <2.0.0"
+    "atom": ">=1.18.0 <2.0.0"
   },
   "bugs": {
     "url": "https://github.com/lexicalunit/atom-notes/issues"
