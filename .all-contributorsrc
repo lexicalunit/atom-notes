@@ -337,6 +337,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "strickinato",
+      "name": "Aaron Strick",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7566896?v=4",
+      "profile": "https://github.com/strickinato",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
