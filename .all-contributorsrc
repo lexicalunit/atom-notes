@@ -301,6 +301,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "brookshelley",
+      "name": "brook shelley",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6990297?v=4",
+      "profile": "http://brookshelley.github.io",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
