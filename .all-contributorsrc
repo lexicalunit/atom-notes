@@ -44,6 +44,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "czchen",
+      "name": "ChangZhuo Chen (陳昌倬)",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/98758?v=4",
+      "profile": "http://czchen.info",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
