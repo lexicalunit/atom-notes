@@ -1,4 +1,5 @@
 # Atom Notes
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 [![apm package][apm-ver-link]][releases]
 [![travis-ci][travis-ci-badge]][travis-ci]
@@ -99,6 +100,18 @@ the following list of possible improvements.
 - Any improvements to package activation time are welcome.
 - Write more spec tests!
 
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key][emoji key]):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+| [<img src="https://avatars1.githubusercontent.com/u/948301?v=4" width="100px;"/><br /><sub>Seongjae Lee</sub>](http://bluebrown.net)<br />[💻](https://github.com/lexicalunit/atom-notes/commits?author=seongjaelee "Code") [📖](https://github.com/lexicalunit/atom-notes/commits?author=seongjaelee "Documentation") |
+| :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors][all-contributors]
+specification. Contributions of any kind welcome!
+
 ---
 
 [MIT][mit] © [lexicalunit][lexicalunit], [seongjaelee][seongjaelee] et [al][contributors]
@@ -121,6 +134,8 @@ the following list of possible improvements.
 [david-badge]:      https://david-dm.org/lexicalunit/atom-notes.svg
 [david]:            https://david-dm.org/lexicalunit/atom-notes
 [issues]:           https://github.com/lexicalunit/atom-notes/issues
+[emoji-key]:        https://github.com/kentcdodds/all-contributors#emoji-key
+[all-contributors]: https://github.com/kentcdodds/all-contributors
 
 [nvatom]:           https://github.com/seongjaelee/nvatom
 [nv]:               http://notational.net/

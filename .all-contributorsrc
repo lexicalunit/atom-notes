@@ -1,0 +1,21 @@
+{
+  "projectName": "atom-notes",
+  "projectOwner": "lexicalunit",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "seongjaelee",
+      "name": "Seongjae Lee",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/948301?v=4",
+      "profile": "http://bluebrown.net",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    }
+  ]
+}
