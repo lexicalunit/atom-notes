@@ -281,6 +281,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "hbuschme",
+      "name": "Hendrik Buschmeier",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/122398?v=4",
+      "profile": "https://purl.org/net/hbuschme",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
