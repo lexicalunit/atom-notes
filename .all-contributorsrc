@@ -245,6 +245,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "PixelT",
+      "name": "PixelT",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/6519351?v=4",
+      "profile": "http://psdtohtml.ninja/",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
