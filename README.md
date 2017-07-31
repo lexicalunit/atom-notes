@@ -82,6 +82,26 @@ above.
 - `atom-notes:interlink`: Jumps to referred note when the cursor is on
   an `[[interlink]]`.
 
+## Incompatible Package Error
+
+A dependency of Atom Notes uses a native module that requires compilation
+specifically for the version of Atom that you're using. This can cause errors
+whenever Atom updates from one version to the next. You're know this has
+occurred:
+
+1. When Atom Note stops working!
+2. You see a small red bug icon in your status bar. Like this: <img width="32" alt="bug-icon" src="https://user-images.githubusercontent.com/1903876/28801085-7addf59c-7615-11e7-88e4-81e20121ec63.png">
+
+When you see that, click on it and it will take you to the
+**Incompatible Packages** settings in Atom. You can also bring it up by running
+the command `Incompatible Packages: View` from your Atom Command Palette. You
+will see something like the following, depending on your current Atom themes.
+
+![Incompatible Packages][incompatible]
+
+All you need to do is click the <kbd>Rebuild Packages</kbd> button. If that
+doesn't work, please [report the issue so I can investigate][issues].
+
 ## 🔮 Future Work
 
 This package is in active development and I'm willing to review your pull
@@ -153,3 +173,5 @@ specification. Contributions of any kind welcome!
 [nvalt]:            http://brettterpstra.com/projects/nvalt/
 [dropbox]:          https://www.dropbox.com
 [drive]:            https://www.google.com/drive/
+[bug-icon]:         https://user-images.githubusercontent.com/1903876/28800778-e8023f22-7613-11e7-9843-bf7b4b1be17a.png
+[incompatible]:     https://user-images.githubusercontent.com/1903876/28801648-1f0d8018-7618-11e7-8b0a-f3f93b2fca7b.png
