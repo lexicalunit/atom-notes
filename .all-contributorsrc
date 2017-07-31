@@ -170,6 +170,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "DivineDominion",
+      "name": "Christian Tietze",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/59080?v=4",
+      "profile": "http://christiantietze.de",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
