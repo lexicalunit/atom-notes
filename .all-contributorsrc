@@ -152,6 +152,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "JonathanReeve",
+      "name": "Jonathan Reeve",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1843676?v=4",
+      "profile": "http://jonreeve.com",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
