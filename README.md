@@ -86,7 +86,7 @@ above.
 
 A dependency of Atom Notes uses a native module that requires compilation
 specifically for the version of Atom that you're using. This can cause errors
-whenever Atom updates from one version to the next. You're know this has
+whenever Atom updates from one version to the next. You'll know this has
 occurred:
 
 1. When Atom Note stops working!
