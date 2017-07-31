@@ -364,6 +364,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "jasonrudolph",
+      "name": "Jason Rudolph",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2988?v=4",
+      "profile": "http://jasonrudolph.com",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
