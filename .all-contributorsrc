@@ -116,6 +116,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "lantay",
+      "name": "Mason",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14668027?v=4",
+      "profile": "http://lantay.github.io/myportfolio",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
