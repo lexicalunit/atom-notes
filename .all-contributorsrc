@@ -263,6 +263,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "jkamenik",
+      "name": "John Kamenik",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/165914?v=4",
+      "profile": "http://jkamenik.github.io",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
