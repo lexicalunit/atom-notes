@@ -382,6 +382,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "zettler",
+      "name": "zettler",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13602288?v=4",
+      "profile": "https://github.com/zettler",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
