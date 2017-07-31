@@ -179,6 +179,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "jonmagic",
+      "name": "Jonathan Hoyt",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/623?v=4",
+      "profile": "http://theprogrammingbutler.com",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
