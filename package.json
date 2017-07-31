@@ -1,7 +1,7 @@
 {
   "name": "atom-notes",
   "main": "./index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "contributors": [
     "lexicalunit <lexicalunit@lexicalunit.com>",
     "Seongjae Lee <seongjae@gmail.com>",
