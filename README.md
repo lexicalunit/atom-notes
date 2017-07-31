@@ -39,8 +39,8 @@ We do not believe Evernote is a good alternative to
 
 - **Open Source**
 - **No Rich Text** - Instead, you get to use [Markdown][md]!
-- **Sync Wherever You Want** - You can save notes locally, in Dropbox,
-  or in Google Drive.
+- **Sync Wherever You Want** - You can save notes locally, in
+  [Dropbox][dropbox], or in [Google Drive][drive].
 
 Other solutions such as [nvALT][nvalt] are stand-alone applications which
 don't have the same synergy with Atom as Atom Notes provides.
@@ -48,11 +48,11 @@ don't have the same synergy with Atom as Atom Notes provides.
 ## ☁️ Synchronization / Cloud Storage
 
 Most users prefer to have access to their notes from multiple computers.
-This is not directly supported by Atom Notes. Instead, please use your
+This is not a feature of Atom Notes per se. Instead, please use your
 favorite synchronization and/or cloud storage solution in conjunction
 with Atom Notes. For example, if you store your notes in a directory
-managed by [Dropbox][dropbox], then will be able to create notes on one
-machine, and then later search for them on another machine 🎉
+managed by [Dropbox][dropbox], then you will have all your notes
+available to you on any machine you wish 🎉
 
 ## ⌨️ Keybindings
 
@@ -130,3 +130,4 @@ the following list of possible improvements.
 [autocomplete]:     https://github.com/atom/atom-select-list/issues/12
 [nvalt]:            http://brettterpstra.com/projects/nvalt/
 [dropbox]:          https://www.dropbox.com
+[drive]:            https://www.google.com/drive/
