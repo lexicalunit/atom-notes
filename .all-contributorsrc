@@ -8,6 +8,17 @@
   "commit": true,
   "contributors": [
     {
+      "login": "lexicalunit",
+      "name": "Amy Troschinetz",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1903876?v=4",
+      "profile": "http://lexicalunit.com",
+      "contributions": [
+        "code",
+        "doc",
+        "bug"
+      ]
+    },
+    {
       "login": "seongjaelee",
       "name": "Seongjae Lee",
       "avatar_url": "https://avatars1.githubusercontent.com/u/948301?v=4",
@@ -19,14 +30,42 @@
       ]
     },
     {
-      "login": "lexicalunit",
-      "name": "Amy Troschinetz",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/1903876?v=4",
-      "profile": "http://lexicalunit.com",
+      "login": "jonmagic",
+      "name": "Jonathan Hoyt",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/623?v=4",
+      "profile": "http://theprogrammingbutler.com",
       "contributions": [
+        "bug",
+        "code"
+      ]
+    },
+    {
+      "login": "ghost",
+      "name": "Deleted user",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10137?v=4",
+      "profile": "https://github.com/ghost",
+      "contributions": [
+        "bug",
         "code",
-        "doc",
-        "bug"
+        "doc"
+      ]
+    },
+    {
+      "login": "geksilla",
+      "name": "Denys Buzhor",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3911882?v=4",
+      "profile": "https://github.com/geksilla",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "deltaidea",
+      "name": "Nikita Litvin",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4950036?v=4",
+      "profile": "https://github.com/deltaidea",
+      "contributions": [
+        "code"
       ]
     },
     {
@@ -165,33 +204,12 @@
       ]
     },
     {
-      "login": "ghost",
-      "name": "Deleted user",
-      "avatar_url": "https://avatars3.githubusercontent.com/u/10137?v=4",
-      "profile": "https://github.com/ghost",
-      "contributions": [
-        "bug",
-        "code",
-        "doc"
-      ]
-    },
-    {
       "login": "DivineDominion",
       "name": "Christian Tietze",
       "avatar_url": "https://avatars3.githubusercontent.com/u/59080?v=4",
       "profile": "http://christiantietze.de",
       "contributions": [
         "bug"
-      ]
-    },
-    {
-      "login": "jonmagic",
-      "name": "Jonathan Hoyt",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/623?v=4",
-      "profile": "http://theprogrammingbutler.com",
-      "contributions": [
-        "bug",
-        "code"
       ]
     },
     {
@@ -219,24 +237,6 @@
       "profile": "https://github.com/jessejanderson",
       "contributions": [
         "bug"
-      ]
-    },
-    {
-      "login": "geksilla",
-      "name": "Denys Buzhor",
-      "avatar_url": "https://avatars3.githubusercontent.com/u/3911882?v=4",
-      "profile": "https://github.com/geksilla",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "deltaidea",
-      "name": "Nikita Litvin",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/4950036?v=4",
-      "profile": "https://github.com/deltaidea",
-      "contributions": [
-        "code"
       ]
     },
     {
