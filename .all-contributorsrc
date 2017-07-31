@@ -26,6 +26,15 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "maxbrunsfeld",
+      "name": "Max Brunsfeld",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/326587?v=4",
+      "profile": "https://github.com/maxbrunsfeld",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
