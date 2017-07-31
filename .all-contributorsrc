@@ -464,6 +464,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "philip-hodder",
+      "name": "Philip Hodder",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6660636?v=4",
+      "profile": "http://www.encodis.com",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
