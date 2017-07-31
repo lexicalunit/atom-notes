@@ -24,6 +24,10 @@
     "url": "https://github.com/lexicalunit/atom-notes/issues"
   },
   "homepage": "https://github.com/lexicalunit/atom-notes",
+  "scripts": {
+    "add": "all-contributors add",
+    "generate": "all-contributors generate"
+  },
   "dependencies": {
     "atom-select-list": "git+https://github.com/lexicalunit/atom-select-list.git#lexicalunit/configurable-auto-select",
     "docquery": "^1.1.1",
@@ -31,6 +35,7 @@
     "fuzzaldrin-plus": "^0.4.1"
   },
   "devDependencies": {
+    "all-contributors-cli": "^4.3.0",
     "chai": "^3.5.0",
     "chai-as-promised": "^7.1.1",
     "eslint": "^3.17.1",
