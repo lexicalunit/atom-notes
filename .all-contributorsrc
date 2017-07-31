@@ -71,6 +71,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "timwis",
+      "name": "Tim Wisniewski",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/761444?v=4",
+      "profile": "http://timwis.com",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
