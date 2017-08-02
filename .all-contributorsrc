@@ -47,6 +47,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "alflanagan",
+      "name": "A. Lloyd Flanagan",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1546080?v=4",
+      "profile": "http://adrian-l-flanagan.herokuapp.com",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
