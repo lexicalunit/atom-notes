@@ -7,7 +7,8 @@
 [![david][david-badge]][david]
 [![download][dl-badge]][apm-pkg-link]
 [![mit][mit-badge]][mit]
-[![All Contributors][contrib-badge]](#-contributors)
+[![All Contributors][notes-contrib]](#-contributors)
+[![nvatom Contributors][nvatom-contrib]][nvatom]
 
 This package is a fork and rewrite of the now unpublished package
 [nvatom][nvatom]. The general idea behind this package is to provide an embedded
@@ -38,7 +39,7 @@ searching for alternatives with more features. For example Evernote. We do not
 believe Evernote is a good alternative to [Notational Velocity][nv]. Advantages
 over Evernote are:
 
-- **Open Source**
+- **Open Source** - Uses the [MIT][mit] license.
 - **No Rich Text** - Instead, you get to use [Markdown][md]!
 - **Sync Wherever You Want** - You can save notes locally, in
   [Dropbox][dropbox], or in [Google Drive][drive].
@@ -87,10 +88,10 @@ above.
 A dependency of Atom Notes uses a native module that requires compilation
 specifically for the version of Atom that you're using. This can cause errors
 whenever Atom updates from one version to the next. You'll know this has
-occurred:
+occurred when:
 
-1. When Atom Note stops working!
-2. You see a small red bug icon in your status bar. Like this: <img width="32" alt="bug-icon" src="https://user-images.githubusercontent.com/1903876/28801085-7addf59c-7615-11e7-88e4-81e20121ec63.png">
+1. Atom Notes stops working!
+2. You see a small icon of a red bug in your status bar: <img width="32" alt="bug-icon" src="https://user-images.githubusercontent.com/1903876/28801085-7addf59c-7615-11e7-88e4-81e20121ec63.png">
 
 When you see that, click on it and it will take you to the
 **Incompatible Packages** settings in Atom. You can also bring it up by running
@@ -114,7 +115,7 @@ following list of possible improvements.
 - A better screencast animated gif.
 - Refactor autocomplete to be less hacky -- add support to
   [`atom-select-list`][autocomplete]?
-- Use async to ensure the notes directory in the background.
+- Use async to ensure the notes directory exists in the background.
 - Start loading documents in background at package activation time.
 - Any improvements to package activation time are welcome.
 - Write more spec tests!
@@ -167,7 +168,8 @@ specification. Contributions of any kind welcome!
 [issues]:           https://github.com/lexicalunit/atom-notes/issues
 [emoji-key]:        https://github.com/kentcdodds/all-contributors#emoji-key
 [all-contributors]: https://github.com/kentcdodds/all-contributors
-[contrib-badge]:    https://img.shields.io/badge/all_contributors-51-orange.svg?style=flat-square
+[notes-contrib]:    https://img.shields.io/badge/all_contributors-5-orange.svg?style=shield
+[nvatom-contrib]:   https://img.shields.io/badge/nvatom_contributors-50-orange.svg?style=shield
 
 [nvatom]:           https://github.com/seongjaelee/nvatom
 [nv]:               http://notational.net/
