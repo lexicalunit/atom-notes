@@ -1,6 +1,6 @@
 {
   "name": "atom-notes",
-  "main": "./index.js",
+  "main": "./lib/atom-notes.js",
   "version": "1.0.5",
   "contributors": [
     "lexicalunit <lexicalunit@lexicalunit.com>",
