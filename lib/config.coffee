@@ -1,5 +1,5 @@
 path = require('path')
-packageName = require('./utility').packageName
+{packageName} = require('./utility')
 
 module.exports =
   config:
