@@ -32,7 +32,8 @@
     "atom-select-list": "git+https://github.com/lexicalunit/atom-select-list.git#lexicalunit/configurable-auto-select",
     "docquery": "^1.1.1",
     "fs-plus": "^3.0.1",
-    "fuzzaldrin-plus": "^0.4.1"
+    "fuzzaldrin-plus": "^0.4.1",
+    "timsort": "^0.3.0"
   },
   "devDependencies": {
     "all-contributors-cli": "^4.3.0",
