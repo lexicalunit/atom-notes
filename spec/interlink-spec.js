@@ -19,11 +19,11 @@ describe('Interlink', () => {
       waitsForPromise(() => atom.packages.activatePackage(Utility.packageName))
       waitsForPromise(() => atom.workspace.open(notePath))
 
-      return runs(() => {
+      runs(() => {
         editor = atom.workspace.getActiveTextEditor()
-        return waitsFor((done) => {
+        waitsFor((done) => {
           editor.getBuffer().onDidSave(() => done())
-          return editor.save()
+          editor.save()
         })
       })
     })
@@ -43,7 +43,7 @@ describe('Interlink', () => {
 
       editor.setText('[[Car/Mini]]')
       editor.setCursorBufferPosition([0, 2])
-      return expect(Interlink.getInterlinkText(editor)).toBe('Car/Mini')
+      expect(Interlink.getInterlinkText(editor)).toBe('Car/Mini')
     })
 
     it('recognizes invalid interlink text', () => {
@@ -77,10 +77,10 @@ describe('Interlink', () => {
 
       editor.setText('Car')
       editor.setCursorBufferPosition([0, 1])
-      return expect(Interlink.getInterlinkText(editor)).toBeNull()
+      expect(Interlink.getInterlinkText(editor)).toBeNull()
     })
 
-    return it('can open valid interlinks', () => {
+    it('can open valid interlinks', () => {
       editor.setText('[[Car]]')
       editor.setCursorBufferPosition([0, 2])
 
@@ -88,14 +88,31 @@ describe('Interlink', () => {
       expect(openPromise).not.toBe(undefined)
       waitsForPromise(() => openPromise)
 
-      return runs(() => {
+      runs(() => {
         const activeEditor = atom.workspace.getActiveTextEditor()
-        return expect(activeEditor.getPath().endsWith('Car.md')).toBe(true)
+        expect(activeEditor.getPath().endsWith('Car.md')).toBe(true)
+      })
+    })
+
+    it('can dispatch open interlink command', () => {
+      editor.setText('[[Car]]')
+      editor.setCursorBufferPosition([0, 2])
+
+      waitsFor((done) => {
+        atom.commands.dispatch(atom.views.getView(atom.workspace), 'atom-notes:interlink')
+        atom.workspace.observeActiveTextEditor((observedEditor) => {
+          if (observedEditor.getPath() !== editor.getPath()) done()
+        })
+      })
+
+      runs(() => {
+        const activeEditor = atom.workspace.getActiveTextEditor()
+        expect(activeEditor.getPath().endsWith('Car.md')).toBe(true)
       })
     })
   })
 
-  return describe('when the editor is NOT opened to a note', () => {
+  describe('when the editor is NOT opened to a note', () => {
     beforeEach(() => {
       const notesDirectory = temp.mkdirSync()
       atom.config.set(`${Utility.packageName}.directory`, notesDirectory)
@@ -104,11 +121,11 @@ describe('Interlink', () => {
       waitsForPromise(() => atom.packages.activatePackage(Utility.packageName))
       waitsForPromise(() => atom.workspace.open(filePath))
 
-      return runs(() => {
+      runs(() => {
         editor = atom.workspace.getActiveTextEditor()
-        return waitsFor((done) => {
+        waitsFor((done) => {
           editor.getBuffer().onDidSave(() => done())
-          return editor.save()
+          editor.save()
         })
       })
     })
@@ -116,15 +133,15 @@ describe('Interlink', () => {
     it('does not apply the grammar', () => {
       editor.setText('[[Car]]')
       editor.setCursorBufferPosition([0, 2])
-      return expect(Interlink.getInterlinkText(editor)).toBeNull()
+      expect(Interlink.getInterlinkText(editor)).toBeNull()
     })
 
-    return it('does NOT open valid interlinks', () => {
+    it('does NOT open valid interlinks', () => {
       editor.setText('[[Car]]')
       editor.setCursorBufferPosition([0, 2])
 
       const openPromise = Interlink.openInterlink()
-      return expect(openPromise).toBeUndefined()
+      expect(openPromise).toBeUndefined()
     })
   })
 })
