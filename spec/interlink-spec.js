@@ -4,7 +4,6 @@ import path from 'path'
 import temp from 'temp'
 
 import * as Interlink from '../lib/interlink'
-import * as Utility from '../lib/utility'
 
 temp.track()
 
@@ -15,8 +14,8 @@ describe('Interlink', () => {
     beforeEach(() => {
       const notesDirectory = temp.mkdirSync()
       const notePath = path.join(notesDirectory, 'Interlink.md')
-      atom.config.set(`${Utility.packageName}.directory`, notesDirectory)
-      waitsForPromise(() => atom.packages.activatePackage(Utility.packageName))
+      atom.config.set('atom-notes.directory', notesDirectory)
+      waitsForPromise(() => atom.packages.activatePackage('atom-notes'))
       waitsForPromise(() => atom.workspace.open(notePath))
 
       runs(() => {
@@ -115,10 +114,10 @@ describe('Interlink', () => {
   describe('when the editor is NOT opened to a note', () => {
     beforeEach(() => {
       const notesDirectory = temp.mkdirSync()
-      atom.config.set(`${Utility.packageName}.directory`, notesDirectory)
+      atom.config.set('atom-notes.directory', notesDirectory)
       const randomDirectory = temp.mkdirSync()
       const filePath = path.join(randomDirectory, 'Interlink.md')
-      waitsForPromise(() => atom.packages.activatePackage(Utility.packageName))
+      waitsForPromise(() => atom.packages.activatePackage('atom-notes'))
       waitsForPromise(() => atom.workspace.open(filePath))
 
       runs(() => {

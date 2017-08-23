@@ -1,5 +1,4 @@
 path = require('path')
-{packageName} = require('./utility')
 
 module.exports =
   config:
@@ -8,7 +7,7 @@ module.exports =
       title: 'Notes Directory'
       description: 'The directory to archive notes.'
       type: 'string'
-      default: path.join(process.env.ATOM_HOME, packageName)
+      default: path.join(process.env.ATOM_HOME, 'atom-notes')
     extensions:
       order: 2
       title: 'Extensions'

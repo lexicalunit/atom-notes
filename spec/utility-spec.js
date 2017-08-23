@@ -9,28 +9,28 @@ import * as Utility from '../lib/utility'
 temp.track()
 
 describe('Utility', () => {
-  let defaultDirectory = atom.config.get(`${Utility.packageName}.directory`)
-  let defaultNoteExtensions = atom.config.get(`${Utility.packageName}.extensions`)
+  let defaultDirectory = atom.config.get('atom-notes.directory')
+  let defaultNoteExtensions = atom.config.get('atom-notes.extensions')
 
   afterEach(() => {
-    atom.config.set(`${Utility.packageName}.directory`, defaultDirectory)
-    atom.config.set(`${Utility.packageName}.extensions`, defaultNoteExtensions)
+    atom.config.set('atom-notes.directory', defaultDirectory)
+    atom.config.set('atom-notes.extensions', defaultNoteExtensions)
   })
 
   describe('getPrimaryNoteExtension', () => {
     it('test suite', () => {
-      atom.config.set(`${Utility.packageName}.extensions`, ['.md', '.markdown'])
+      atom.config.set('atom-notes.extensions', ['.md', '.markdown'])
       expect(Utility.getPrimaryNoteExtension()).toBe('.md')
-      atom.config.set(`${Utility.packageName}.extensions`, ['.markdown'])
+      atom.config.set('atom-notes.extensions', ['.markdown'])
       expect(Utility.getPrimaryNoteExtension()).toBe('.markdown')
-      atom.config.set(`${Utility.packageName}.extensions`, [])
+      atom.config.set('atom-notes.extensions', [])
       expect(Utility.getPrimaryNoteExtension()).toBe('.md')
     })
   })
 
   describe('isNote', () => {
     it('handles symlinks correctly', () => {
-      atom.config.set(`${Utility.packageName}.extensions`, ['.md', '.markdown'])
+      atom.config.set('atom-notes.extensions', ['.md', '.markdown'])
 
       let tempDirectoryPath = path.join(temp.mkdirSync())
       let notesDirectoryPath = path.join(temp.mkdirSync())
@@ -45,11 +45,11 @@ describe('Utility', () => {
       expect(fs.existsSync(notePath)).toBe(true)
       expect(fs.existsSync(fs.normalize(notePath))).toBe(true)
 
-      atom.config.set(`${Utility.packageName}.directory`, notesDirectoryPath)
+      atom.config.set('atom-notes.directory', notesDirectoryPath)
       expect(Utility.isNote(notePath)).toBe(true)
       expect(Utility.isNote(notePathSymlink)).toBe(true)
 
-      atom.config.set(`${Utility.packageName}.directory`, notesDirectoryPathSymlink)
+      atom.config.set('atom-notes.directory', notesDirectoryPathSymlink)
       expect(Utility.isNote(notePath)).toBe(true)
       expect(Utility.isNote(notePathSymlink)).toBe(true)
     })
