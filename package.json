@@ -37,8 +37,6 @@
   },
   "devDependencies": {
     "all-contributors-cli": "^4.3.0",
-    "chai": "^3.5.0",
-    "chai-as-promised": "^7.1.1",
     "eslint": "^3.17.1",
     "eslint-config-standard": "^7.0.1",
     "eslint-plugin-promise": "^3.5.0",

@@ -2,11 +2,6 @@
 
 import path from 'path'
 import temp from 'temp'
-import chai from 'chai'
-import chaiAsPromised from 'chai-as-promised'
-
-chai.use(chaiAsPromised)
-chai.should()
 
 temp.track()
 
@@ -40,12 +35,7 @@ describe('atom-notes', () => {
         expect(wsview.querySelector('.atom-notes').parentNode.style.display).toBe('none')
       })
     })
-
-    it('ensures that configured directory can not be within packages directory', () => {
-      const noteDirectory = path.join(process.env.ATOM_HOME, 'packages', 'atom-notes', 'notebook')
-      atom.config.set('atom-notes.directory', noteDirectory)
-
-      runs(() => atom.packages.activatePackage('atom-notes').should.be.rejectedWith(Error))
-    })
   })
+
+  // TOOD: Add a spec test for ensureNotesDirectory()?
 })
