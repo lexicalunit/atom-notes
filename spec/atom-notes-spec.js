@@ -19,10 +19,23 @@ describe('atom-notes', () => {
 
   describe('when the toggle event is triggered', () => {
     it('attaches and then detaches the view', () => {
-      const noteDirectory = path.join(temp.mkdirSync())
-      atom.config.set('atom-notes.directory', noteDirectory)
+      let done = jasmine.createSpy('done')
 
-      waitsForPromise(() => atom.packages.activatePackage('atom-notes'))
+      runs(() => {
+        const noteDirectory = path.join(temp.mkdirSync())
+        atom.config.set('atom-notes.directory', noteDirectory)
+        atom.packages.activatePackage('atom-notes').then(pack => {
+          let module = pack.mainModule
+          setInterval(() => {
+            window.advanceClock(1)
+            if (module.ready) done()
+          }, 5)
+        })
+      })
+
+      waitsFor(() => {
+        return done.callCount > 0
+      }, 'module to be ready')
 
       runs(() => {
         expect(wsview.querySelector('.atom-notes')).not.toExist()
@@ -37,5 +50,31 @@ describe('atom-notes', () => {
     })
   })
 
-  // TOOD: Add a spec test for ensureNotesDirectory()?
+  describe('when the notes directory is invalid', () => {
+    it('automatically deactivate the package', () => {
+      atom.notifications.addError = jasmine.createSpy('atom.notifications.addError')
+      let done = jasmine.createSpy('done')
+
+      runs(() => {
+        const noteDirectory = path.join(process.env.ATOM_HOME, 'packages', 'atom-notes', 'notebook')
+        atom.config.set('atom-notes.directory', noteDirectory)
+        atom.packages.activatePackage('atom-notes').then(pack => {
+          let module = pack.mainModule
+          setInterval(() => {
+            window.advanceClock(1)
+            if (module.ready !== undefined && !module.ready) done()
+          }, 5)
+        })
+      })
+
+      waitsFor(() => {
+        return done.callCount > 0
+      }, 'module to abort activation')
+
+      runs(() => {
+        expect(wsview.querySelector('.atom-notes')).not.toExist()
+        expect(atom.notifications.addError.callCount).toBe(1)
+      })
+    })
+  })
 })
