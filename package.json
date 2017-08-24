@@ -1,7 +1,7 @@
 {
   "name": "atom-notes",
   "main": "./lib/atom-notes.js",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "contributors": [
     "lexicalunit <lexicalunit@lexicalunit.com>",
     "Seongjae Lee <seongjae@gmail.com>",
