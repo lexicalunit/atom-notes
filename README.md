@@ -113,13 +113,13 @@ If you'd like to take a stab at improving this package, please check out the
 following list of possible improvements.
 
 - [ ] A better screencast animated gif.
-- [ ] Refactor autocomplete to be less hacky &mdash; add support to
-  [`atom-select-list`][autocomplete]?
 - [ ] Any improvements to package activation time are welcome.
 - [ ] Speed and usability improvements are also always welcome.
 - [ ] Write more spec tests!
 - [x] Use async to ensure the notes directory exists in the background.
 - [x] Start loading documents in background at package activation time.
+- [x] Refactor autocomplete to be less hacky &mdash; add support to
+  [`atom-select-list`][autocomplete]?
 
 ## 💖 Contributors
 
