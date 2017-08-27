@@ -1,6 +1,6 @@
 {
   "name": "atom-notes",
-  "main": "./lib/atom-notes.js",
+  "main": "./lib/atom-notes",
   "version": "1.5.2",
   "contributors": [
     "lexicalunit <lexicalunit@lexicalunit.com>",
@@ -26,21 +26,25 @@
   "homepage": "https://github.com/lexicalunit/atom-notes",
   "scripts": {
     "add": "all-contributors add",
-    "generate": "all-contributors generate"
+    "generate": "all-contributors generate",
+    "lint": "eslint ."
   },
   "dependencies": {
-    "atom-select-list": "git+https://github.com/lexicalunit/atom-select-list.git#lexicalunit/configurable-auto-select",
+    "atom-select-list": "git+https://github.com/lexicalunit/atom-select-list.git#lexicalunit/autocomplete",
     "docquery": "^1.1.1",
+    "etch": "^0.12.6",
     "fs-plus": "^3.0.1",
     "fuzzaldrin-plus": "^0.4.1",
     "timsort": "^0.3.0"
   },
   "devDependencies": {
-    "all-contributors-cli": "^4.3.0",
-    "eslint": "^3.17.1",
-    "eslint-config-standard": "^7.0.1",
+    "all-contributors-cli": "^4.4.0",
+    "eslint": "^4.5.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^2.1.1",
-    "temp": "0.8.1"
+    "eslint-plugin-standard": "^3.0.1",
+    "temp": "^0.8.3"
   }
 }

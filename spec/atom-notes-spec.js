@@ -28,7 +28,7 @@ describe('atom-notes', () => {
           let module = pack.mainModule
           setInterval(() => {
             window.advanceClock(1)
-            if (module.ready) done()
+            if (module && module.ready) done()
           }, 5)
         })
       })
@@ -62,7 +62,7 @@ describe('atom-notes', () => {
           let module = pack.mainModule
           setInterval(() => {
             window.advanceClock(1)
-            if (module.ready !== undefined && !module.ready) done()
+            if (module && module.ready !== undefined && !module.ready) done()
           }, 5)
         })
       })
