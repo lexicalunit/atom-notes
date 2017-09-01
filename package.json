@@ -29,6 +29,9 @@
     "generate": "all-contributors generate",
     "lint": "eslint ."
   },
+  "deserializers": {
+    "SearchIndex": "deserializeSearchIndex"
+  },
   "dependencies": {
     "atom-select-list": "git+https://github.com/lexicalunit/atom-select-list.git#lexicalunit/autocomplete",
     "docquery": "^1.1.1",

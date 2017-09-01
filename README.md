@@ -112,12 +112,13 @@ requests and triage any issues you're having. Please
 If you'd like to take a stab at improving this package, please check out the
 following list of possible improvements.
 
-- [ ] When `DocQuery` match returns nothing, fallback to `fuzzaldrin-plus`?
+- [ ] Rip out `DocQuery` and [use `search-index` directly](use-search-index).
 - [ ] Does it make sense to utilize etch somehow?
 - [ ] A better screencast animated gif.
 - [ ] Any improvements to package activation time are welcome.
 - [ ] Speed and usability improvements are also always welcome.
 - [ ] Write more spec tests!
+- [x] When `DocQuery` match returns nothing, fallback to `fuzzaldrin-plus`.
 - [x] Use async to ensure the notes directory exists in the background.
 - [x] Start loading documents in background at package activation time.
 - [x] Refactor autocomplete to be less hacky &mdash; add support to
@@ -185,3 +186,4 @@ specification. Contributions of any kind welcome!
 [drive]:            https://www.google.com/drive/
 [bug-icon]:         https://user-images.githubusercontent.com/1903876/28800778-e8023f22-7613-11e7-9843-bf7b4b1be17a.png
 [incompatible]:     https://user-images.githubusercontent.com/1903876/28801648-1f0d8018-7618-11e7-8b0a-f3f93b2fca7b.png
+[use-search-index]: https://github.com/seongjaelee/nvatom/issues/35#issuecomment-143653832
