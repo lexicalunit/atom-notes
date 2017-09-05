@@ -112,7 +112,7 @@ requests and triage any issues you're having. Please
 If you'd like to take a stab at improving this package, please check out the
 following list of possible improvements.
 
-- [ ] Rip out `DocQuery` and [use `search-index` directly](use-search-index).
+- [ ] Rip out `DocQuery` and [use `search-index` directly][use-search-index].
 - [ ] Does it make sense to utilize etch somehow?
 - [ ] A better screencast animated gif.
 - [ ] Any improvements to package activation time are welcome.
