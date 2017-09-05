@@ -112,12 +112,13 @@ requests and triage any issues you're having. Please
 If you'd like to take a stab at improving this package, please check out the
 following list of possible improvements.
 
-- [ ] When `DocQuery` match returns nothing, fallback to `fuzzaldrin-plus`?
+- [ ] Rip out `DocQuery` and [use `search-index` directly](use-search-index).
 - [ ] Does it make sense to utilize etch somehow?
 - [ ] A better screencast animated gif.
 - [ ] Any improvements to package activation time are welcome.
 - [ ] Speed and usability improvements are also always welcome.
 - [ ] Write more spec tests!
+- [x] When `DocQuery` match returns nothing, fallback to `fuzzaldrin-plus`.
 - [x] Use async to ensure the notes directory exists in the background.
 - [x] Start loading documents in background at package activation time.
 - [x] Refactor autocomplete to be less hacky &mdash; add support to
@@ -130,6 +131,7 @@ Thanks goes to these wonderful people ([emoji key][emoji-key]):
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 | [<img src="https://avatars1.githubusercontent.com/u/1903876?v=4" width="100px;"/><br /><sub>Amy Troschinetz</sub>](http://lexicalunit.com)<br />[💻](https://github.com/lexicalunit/atom-notes/commits?author=lexicalunit "Code") [📖](https://github.com/lexicalunit/atom-notes/commits?author=lexicalunit "Documentation") [🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Alexicalunit "Bug reports") | [<img src="https://avatars1.githubusercontent.com/u/948301?v=4" width="100px;"/><br /><sub>Seongjae Lee</sub>](http://bluebrown.net)<br />[💻](https://github.com/lexicalunit/atom-notes/commits?author=seongjaelee "Code") [📖](https://github.com/lexicalunit/atom-notes/commits?author=seongjaelee "Documentation") [🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Aseongjaelee "Bug reports") | [<img src="https://avatars1.githubusercontent.com/u/623?v=4" width="100px;"/><br /><sub>Jonathan Hoyt</sub>](http://theprogrammingbutler.com)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Ajonmagic "Bug reports") [💻](https://github.com/lexicalunit/atom-notes/commits?author=jonmagic "Code") | [<img src="https://avatars1.githubusercontent.com/u/6660636?v=4" width="100px;"/><br /><sub>Philip Hodder</sub>](http://www.encodis.com)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Aphilip-hodder "Bug reports") | [<img src="https://avatars1.githubusercontent.com/u/1546080?v=4" width="100px;"/><br /><sub>A. Lloyd Flanagan</sub>](http://adrian-l-flanagan.herokuapp.com)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Aalflanagan "Bug reports") | [<img src="https://avatars2.githubusercontent.com/u/31057217?v=4" width="100px;"/><br /><sub>webdev-skynet</sub>](https://github.com/webdev-skynet)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Awebdev-skynet "Bug reports") | [<img src="https://avatars0.githubusercontent.com/u/9479788?v=4" width="100px;"/><br /><sub>lakonis</sub>](https://github.com/lakonis)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Alakonis "Bug reports") |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| [<img src="https://avatars1.githubusercontent.com/u/1103714?v=4" width="100px;"/><br /><sub>Mike Clark</sub>](http://wassname.org)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Awassname "Bug reports") |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ### Contributors to nvatom
@@ -171,7 +173,7 @@ specification. Contributions of any kind welcome!
 [issues]:           https://github.com/lexicalunit/atom-notes/issues
 [emoji-key]:        https://github.com/kentcdodds/all-contributors#emoji-key
 [all-contributors]: https://github.com/kentcdodds/all-contributors
-[notes-contrib]:    https://img.shields.io/badge/all_contributors-7-orange.svg?style=shield
+[notes-contrib]:    https://img.shields.io/badge/all_contributors-8-orange.svg?style=shield
 [nvatom-contrib]:   https://img.shields.io/badge/nvatom_contributors-50-orange.svg?style=shield
 
 [nvatom]:           https://github.com/seongjaelee/nvatom
@@ -185,3 +187,4 @@ specification. Contributions of any kind welcome!
 [drive]:            https://www.google.com/drive/
 [bug-icon]:         https://user-images.githubusercontent.com/1903876/28800778-e8023f22-7613-11e7-9843-bf7b4b1be17a.png
 [incompatible]:     https://user-images.githubusercontent.com/1903876/28801648-1f0d8018-7618-11e7-8b0a-f3f93b2fca7b.png
+[use-search-index]: https://github.com/seongjaelee/nvatom/issues/35#issuecomment-143653832
