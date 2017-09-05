@@ -7,6 +7,7 @@
 [![david][david-badge]][david]
 [![download][dl-badge]][apm-pkg-link]
 [![mit][mit-badge]][mit]
+[![code-style][code-style-badge]][code-style]
 [![All Contributors][notes-contrib]](#-contributors)
 [![nvatom Contributors][nvatom-contrib]][nvatom]
 
@@ -153,38 +154,42 @@ specification. Contributions of any kind welcome!
 
 [MIT][mit] © [lexicalunit][lexicalunit], [seongjaelee][seongjaelee] et [al][contributors]
 
-[mit]:              http://opensource.org/licenses/MIT
 [lexicalunit]:      http://github.com/lexicalunit
 [seongjaelee]:      http://github.com/seongjaelee
+
 [contributors]:     https://github.com/lexicalunit/atom-notes/graphs/contributors
 [releases]:         https://github.com/lexicalunit/atom-notes/releases
-[mit-badge]:        https://img.shields.io/apm/l/atom-notes.svg
 [apm-pkg-link]:     https://atom.io/packages/atom-notes
 [apm-ver-link]:     https://img.shields.io/apm/v/atom-notes.svg
-[dl-badge]:         http://img.shields.io/apm/dm/atom-notes.svg
-[travis-ci-badge]:  https://travis-ci.org/lexicalunit/atom-notes.svg?branch=master
-[travis-ci]:        https://travis-ci.org/lexicalunit/atom-notes
-[appveyor]:         https://ci.appveyor.com/project/lexicalunit/atom-notes?branch=master
 [appveyor-badge]:   https://ci.appveyor.com/api/projects/status/a4fcn60mhewef9r0/branch/master?svg=true
-[circle-ci]:        https://circleci.com/gh/lexicalunit/atom-notes/tree/master
+[appveyor]:         https://ci.appveyor.com/project/lexicalunit/atom-notes?branch=master
 [circle-ci-badge]:  https://circleci.com/gh/lexicalunit/atom-notes/tree/master.svg?style=shield
+[circle-ci]:        https://circleci.com/gh/lexicalunit/atom-notes/tree/master
+[code-style-badge]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
+[code-style]:       https://standardjs.com/
 [david-badge]:      https://david-dm.org/lexicalunit/atom-notes.svg
 [david]:            https://david-dm.org/lexicalunit/atom-notes
+[dl-badge]:         http://img.shields.io/apm/dm/atom-notes.svg
 [issues]:           https://github.com/lexicalunit/atom-notes/issues
-[emoji-key]:        https://github.com/kentcdodds/all-contributors#emoji-key
+[mit-badge]:        https://img.shields.io/apm/l/atom-notes.svg
+[mit]:              http://opensource.org/licenses/MIT
+[travis-ci-badge]:  https://travis-ci.org/lexicalunit/atom-notes.svg?branch=master
+[travis-ci]:        https://travis-ci.org/lexicalunit/atom-notes
+
 [all-contributors]: https://github.com/kentcdodds/all-contributors
+[emoji-key]:        https://github.com/kentcdodds/all-contributors#emoji-key
 [notes-contrib]:    https://img.shields.io/badge/all_contributors-9-orange.svg?style=shield
 [nvatom-contrib]:   https://img.shields.io/badge/nvatom_contributors-50-orange.svg?style=shield
 
-[nvatom]:           https://github.com/seongjaelee/nvatom
-[nv]:               http://notational.net/
-[md]:               http://daringfireball.net/projects/markdown/
-[keymaps]:          http://flight-manual.atom.io/using-atom/sections/basic-customization/#customizing-keybindings
-[screencast]:       https://user-images.githubusercontent.com/1903876/28757512-67bb005c-754a-11e7-99bd-5babb98ac056.gif
 [autocomplete]:     https://github.com/atom/atom-select-list/issues/12
-[nvalt]:            http://brettterpstra.com/projects/nvalt/
-[dropbox]:          https://www.dropbox.com
-[drive]:            https://www.google.com/drive/
 [bug-icon]:         https://user-images.githubusercontent.com/1903876/28800778-e8023f22-7613-11e7-9843-bf7b4b1be17a.png
+[drive]:            https://www.google.com/drive/
+[dropbox]:          https://www.dropbox.com
 [incompatible]:     https://user-images.githubusercontent.com/1903876/28801648-1f0d8018-7618-11e7-8b0a-f3f93b2fca7b.png
+[keymaps]:          http://flight-manual.atom.io/using-atom/sections/basic-customization/#customizing-keybindings
+[md]:               http://daringfireball.net/projects/markdown/
+[nv]:               http://notational.net/
+[nvalt]:            http://brettterpstra.com/projects/nvalt/
+[nvatom]:           https://github.com/seongjaelee/nvatom
+[screencast]:       https://user-images.githubusercontent.com/1903876/28757512-67bb005c-754a-11e7-99bd-5babb98ac056.gif
 [use-search-index]: https://github.com/seongjaelee/nvatom/issues/35#issuecomment-143653832
