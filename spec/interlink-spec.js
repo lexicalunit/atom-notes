@@ -30,53 +30,53 @@ describe('Interlink', () => {
     it('can get interlink text', () => {
       editor.setText('[[Car]]')
       editor.setCursorBufferPosition([0, 2])
-      expect(Interlink.getInterlinkText(editor)).toBe('Car')
+      expect(Interlink.getInterlinkTitle(editor)).toBe('Car')
 
       editor.setText('[[Notational Velocity]]')
       editor.setCursorBufferPosition([0, 2])
-      expect(Interlink.getInterlinkText(editor)).toBe('Notational Velocity')
+      expect(Interlink.getInterlinkTitle(editor)).toBe('Notational Velocity')
 
       editor.setText('[[ Car ]]')
       editor.setCursorBufferPosition([0, 2])
-      expect(Interlink.getInterlinkText(editor)).toBe('Car')
+      expect(Interlink.getInterlinkTitle(editor)).toBe('Car')
 
       editor.setText('[[Car/Mini]]')
       editor.setCursorBufferPosition([0, 2])
-      expect(Interlink.getInterlinkText(editor)).toBe('Car/Mini')
+      expect(Interlink.getInterlinkTitle(editor)).toBe('Car/Mini')
+
+      editor.setText('[[[Car]]]')
+      editor.setCursorBufferPosition([0, 3])
+      expect(Interlink.getInterlinkTitle(editor)).toBe('Car')
+
+      editor.setText('[[Car]]]')
+      editor.setCursorBufferPosition([0, 2])
+      expect(Interlink.getInterlinkTitle(editor)).toBe('Car')
     })
 
     it('recognizes invalid interlink text', () => {
       editor.setText('[[]]')
       editor.setCursorBufferPosition([0, 2])
-      expect(Interlink.getInterlinkText(editor)).toBeNull()
+      expect(Interlink.getInterlinkTitle(editor)).toBeNull()
 
       editor.setText('[[]]')
       editor.setCursorBufferPosition([0, 3])
-      expect(Interlink.getInterlinkText(editor)).toBeNull()
+      expect(Interlink.getInterlinkTitle(editor)).toBeNull()
 
       editor.setText('[[   ]]')
       editor.setCursorBufferPosition([0, 2])
-      expect(Interlink.getInterlinkText(editor)).toBeNull()
+      expect(Interlink.getInterlinkTitle(editor)).toBeNull()
 
       editor.setText('[Car]')
       editor.setCursorBufferPosition([0, 1])
-      expect(Interlink.getInterlinkText(editor)).toBeNull()
-
-      editor.setText('[[[Car]]]')
-      editor.setCursorBufferPosition([0, 3])
-      expect(Interlink.getInterlinkText(editor)).toBeNull()
+      expect(Interlink.getInterlinkTitle(editor)).toBeNull()
 
       editor.setText('[[Car]')
       editor.setCursorBufferPosition([0, 2])
-      expect(Interlink.getInterlinkText(editor)).toBeNull()
-
-      editor.setText('[[Car]]]')
-      editor.setCursorBufferPosition([0, 2])
-      expect(Interlink.getInterlinkText(editor)).toBeNull()
+      expect(Interlink.getInterlinkTitle(editor)).toBeNull()
 
       editor.setText('Car')
       editor.setCursorBufferPosition([0, 1])
-      expect(Interlink.getInterlinkText(editor)).toBeNull()
+      expect(Interlink.getInterlinkTitle(editor)).toBeNull()
     })
 
     it('can open valid interlinks', () => {
@@ -127,12 +127,6 @@ describe('Interlink', () => {
           editor.save()
         })
       })
-    })
-
-    it('does not apply the grammar', () => {
-      editor.setText('[[Car]]')
-      editor.setCursorBufferPosition([0, 2])
-      expect(Interlink.getInterlinkText(editor)).toBeNull()
     })
 
     it('does NOT open valid interlinks', () => {
