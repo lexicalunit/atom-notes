@@ -83,6 +83,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "sdaza",
+      "name": "Sebastian Daza",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2096246?v=4",
+      "profile": "http://sdaza.com",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
