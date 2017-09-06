@@ -29,6 +29,9 @@ editor.
 - Incremental Search
 - Interlinks
 
+> **Note:** For interlink syntax highlighting, please install
+>           [`language-atom-notes`][language-atom-notes].
+
 Embedding these features in Atom provides the following advantages.
 
 - **Use Atom's Features** - Such as Syntax Highlighting and Tree View.
@@ -157,8 +160,6 @@ specification. Contributions of any kind welcome!
 [lexicalunit]:      http://github.com/lexicalunit
 [seongjaelee]:      http://github.com/seongjaelee
 
-[contributors]:     https://github.com/lexicalunit/atom-notes/graphs/contributors
-[releases]:         https://github.com/lexicalunit/atom-notes/releases
 [apm-pkg-link]:     https://atom.io/packages/atom-notes
 [apm-ver-link]:     https://img.shields.io/apm/v/atom-notes.svg
 [appveyor-badge]:   https://ci.appveyor.com/api/projects/status/a4fcn60mhewef9r0/branch/master?svg=true
@@ -167,12 +168,14 @@ specification. Contributions of any kind welcome!
 [circle-ci]:        https://circleci.com/gh/lexicalunit/atom-notes/tree/master
 [code-style-badge]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
 [code-style]:       https://standardjs.com/
+[contributors]:     https://github.com/lexicalunit/atom-notes/graphs/contributors
 [david-badge]:      https://david-dm.org/lexicalunit/atom-notes.svg
 [david]:            https://david-dm.org/lexicalunit/atom-notes
 [dl-badge]:         http://img.shields.io/apm/dm/atom-notes.svg
 [issues]:           https://github.com/lexicalunit/atom-notes/issues
 [mit-badge]:        https://img.shields.io/apm/l/atom-notes.svg
 [mit]:              http://opensource.org/licenses/MIT
+[releases]:         https://github.com/lexicalunit/atom-notes/releases
 [travis-ci-badge]:  https://travis-ci.org/lexicalunit/atom-notes.svg?branch=master
 [travis-ci]:        https://travis-ci.org/lexicalunit/atom-notes
 
@@ -181,15 +184,16 @@ specification. Contributions of any kind welcome!
 [notes-contrib]:    https://img.shields.io/badge/all_contributors-9-orange.svg?style=shield
 [nvatom-contrib]:   https://img.shields.io/badge/nvatom_contributors-50-orange.svg?style=shield
 
-[autocomplete]:     https://github.com/atom/atom-select-list/issues/12
-[bug-icon]:         https://user-images.githubusercontent.com/1903876/28800778-e8023f22-7613-11e7-9843-bf7b4b1be17a.png
-[drive]:            https://www.google.com/drive/
-[dropbox]:          https://www.dropbox.com
-[incompatible]:     https://user-images.githubusercontent.com/1903876/28801648-1f0d8018-7618-11e7-8b0a-f3f93b2fca7b.png
-[keymaps]:          http://flight-manual.atom.io/using-atom/sections/basic-customization/#customizing-keybindings
-[md]:               http://daringfireball.net/projects/markdown/
-[nv]:               http://notational.net/
-[nvalt]:            http://brettterpstra.com/projects/nvalt/
-[nvatom]:           https://github.com/seongjaelee/nvatom
-[screencast]:       https://user-images.githubusercontent.com/1903876/28757512-67bb005c-754a-11e7-99bd-5babb98ac056.gif
-[use-search-index]: https://github.com/seongjaelee/nvatom/issues/35#issuecomment-143653832
+[autocomplete]:         https://github.com/atom/atom-select-list/issues/12
+[bug-icon]:             https://user-images.githubusercontent.com/1903876/28800778-e8023f22-7613-11e7-9843-bf7b4b1be17a.png
+[drive]:                https://www.google.com/drive/
+[dropbox]:              https://www.dropbox.com
+[incompatible]:         https://user-images.githubusercontent.com/1903876/28801648-1f0d8018-7618-11e7-8b0a-f3f93b2fca7b.png
+[keymaps]:              http://flight-manual.atom.io/using-atom/sections/basic-customization/#customizing-keybindings
+[language-atom-notes]:  https://github.com/lexicalunit/language-atom-notes
+[md]:                   http://daringfireball.net/projects/markdown/
+[nv]:                   http://notational.net/
+[nvalt]:                http://brettterpstra.com/projects/nvalt/
+[nvatom]:               https://github.com/seongjaelee/nvatom
+[screencast]:           https://user-images.githubusercontent.com/1903876/28757512-67bb005c-754a-11e7-99bd-5babb98ac056.gif
+[use-search-index]:     https://github.com/seongjaelee/nvatom/issues/35#issuecomment-143653832
