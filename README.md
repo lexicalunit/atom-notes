@@ -89,18 +89,19 @@ above.
 
 ## ⚠️ Incompatible Package Error
 
-A dependency of Atom Notes uses a native module that requires compilation
-specifically for the version of Atom that you're using. This can cause errors
-whenever Atom updates from one version to the next. You'll know this has
+In versions prior to `1.12.0`, a dependency of Atom Notes used a native module
+that required compilation for each specific version of Atom. This would cause
+errors whenever Atom updated from one version to the next. You'd know this had
 occurred when:
 
-1. Atom Notes stops working!
-2. You see a small icon of a red bug in your status bar: <img width="32" alt="bug-icon" src="https://user-images.githubusercontent.com/1903876/28801085-7addf59c-7615-11e7-88e4-81e20121ec63.png">
+1. Atom Notes stopped working!
+2. You saw a small icon of a red bug in your status bar: <img width="32" alt="bug-icon" src="https://user-images.githubusercontent.com/1903876/28801085-7addf59c-7615-11e7-88e4-81e20121ec63.png">
 
-When you see that, click on it and it will take you to the
-**Incompatible Packages** settings in Atom. You can also bring it up by running
-the command `Incompatible Packages: View` from your Atom Command Palette. You
-will see something like the following, depending on your current Atom themes.
+If you're on an old version, and see that, click on it and it will take you to
+the **Incompatible Packages** settings in Atom. You can also bring it up by
+running the command `Incompatible Packages: View` from your Atom Command
+Palette. You will see something like the following, depending on your current
+Atom themes.
 
 ![Incompatible Packages][incompatible]
 
@@ -116,12 +117,13 @@ requests and triage any issues you're having. Please
 If you'd like to take a stab at improving this package, please check out the
 following list of possible improvements.
 
-- [ ] Rip out `DocQuery` and [use `search-index` directly][use-search-index].
+- [ ] Build a notes server to offload processing from the Atom editor.
 - [ ] Does it make sense to utilize etch somehow?
 - [ ] A better screencast animated gif.
 - [ ] Any improvements to package activation time are welcome.
 - [ ] Speed and usability improvements are also always welcome.
 - [ ] Write more spec tests!
+- [x] Rip out `DocQuery` and [use `search-index` directly][use-search-index].
 - [x] When `DocQuery` match returns nothing, fallback to `fuzzaldrin-plus`.
 - [x] Use async to ensure the notes directory exists in the background.
 - [x] Start loading documents in background at package activation time.

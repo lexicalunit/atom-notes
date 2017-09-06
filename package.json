@@ -34,7 +34,8 @@
   },
   "dependencies": {
     "atom-select-list": "git+https://github.com/lexicalunit/atom-select-list.git#lexicalunit/autocomplete",
-    "docquery": "git+https://github.com/lexicalunit/docquery.git#lexicalunit/load-search-index",
+    "chokidar": "^1.7.0",
+    "elasticlunr": "^0.9.5",
     "fs-plus": "^3.0.1",
     "fuzzaldrin-plus": "^0.4.1",
     "timsort": "^0.3.0"
