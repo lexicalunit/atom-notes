@@ -92,6 +92,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "OmeGak",
+      "name": "Alejandro Avilés",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/716307?v=4",
+      "profile": "http://twitter.com/OmeGak",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
