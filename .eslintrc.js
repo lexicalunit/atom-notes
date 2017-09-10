@@ -6,6 +6,7 @@ module.exports = {
   ],
   'globals': {
     'atom': true,
-    'MutationObserver': true
+    'MutationObserver': true,
+    'performance': true
   }
 }

@@ -13,7 +13,7 @@ module.exports =
       title: 'Extensions'
       description: 'The first extension will be used for newly created notes.'
       type: 'array'
-      default: ['.md', '.txt']
+      default: ['.md', '.markdown', '.adoc', '.txt']
       items: { type: 'string' }
     enableAutosave:
       order: 3
