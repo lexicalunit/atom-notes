@@ -117,6 +117,7 @@ requests and triage any issues you're having. Please
 If you'd like to take a stab at improving this package, please check out the
 following list of possible improvements.
 
+- [ ] Replace `chokidar` usage with [Atom's new File Watch API][file-watch-api].
 - [ ] Build a notes server to offload processing from the Atom editor.
 - [ ] Does it make sense to utilize etch somehow?
 - [ ] A better screencast animated gif.
@@ -194,6 +195,7 @@ specification. Contributions of any kind welcome!
 [keymaps]:              http://flight-manual.atom.io/using-atom/sections/basic-customization/#customizing-keybindings
 [language-atom-notes]:  https://github.com/lexicalunit/language-atom-notes
 [md]:                   http://daringfireball.net/projects/markdown/
+[file-watch-api]:       https://github.com/atom/atom/pull/14853
 [nv]:                   http://notational.net/
 [nvalt]:                http://brettterpstra.com/projects/nvalt/
 [nvatom]:               https://github.com/seongjaelee/nvatom
