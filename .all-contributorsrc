@@ -101,6 +101,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "mshenfield",
+      "name": "Max Shenfield",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4812055?v=4",
+      "profile": "https://www.eventbrite.com",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
