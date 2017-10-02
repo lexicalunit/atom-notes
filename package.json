@@ -33,9 +33,9 @@
     "SearchIndex": "deserializeSearchIndex"
   },
   "dependencies": {
-    "atom-select-list": "git+https://github.com/lexicalunit/atom-select-list.git#lexicalunit/autocomplete",
     "chokidar": "^1.7.0",
     "elasticlunr": "^0.9.5",
+    "etch": "^0.12.6",
     "fs-plus": "^3.0.1",
     "fuzzaldrin-plus": "^0.4.1",
     "timsort": "^0.3.0"
