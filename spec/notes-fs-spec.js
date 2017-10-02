@@ -4,11 +4,11 @@ import fs from 'fs-plus'
 import path from 'path'
 import temp from 'temp'
 
-import * as NotsFs from '../lib/notes-fs'
+import * as NotesFs from '../lib/notes-fs'
 
 temp.track()
 
-describe('NotsFs', () => {
+describe('NotesFs', () => {
   let defaultDirectory = atom.config.get('atom-notes.directory')
   let defaultNoteExtensions = atom.config.get('atom-notes.extensions')
 
@@ -20,11 +20,11 @@ describe('NotsFs', () => {
   describe('getPrimaryNoteExtension', () => {
     it('test suite', () => {
       atom.config.set('atom-notes.extensions', ['.md', '.markdown'])
-      expect(NotsFs.getPrimaryNoteExtension()).toBe('.md')
+      expect(NotesFs.getPrimaryNoteExtension()).toBe('.md')
       atom.config.set('atom-notes.extensions', ['.markdown'])
-      expect(NotsFs.getPrimaryNoteExtension()).toBe('.markdown')
+      expect(NotesFs.getPrimaryNoteExtension()).toBe('.markdown')
       atom.config.set('atom-notes.extensions', [])
-      expect(NotsFs.getPrimaryNoteExtension()).toBe('.md')
+      expect(NotesFs.getPrimaryNoteExtension()).toBe('.md')
     })
   })
 
@@ -46,12 +46,12 @@ describe('NotsFs', () => {
       expect(fs.existsSync(fs.normalize(notePath))).toBe(true)
 
       atom.config.set('atom-notes.directory', notesDirectoryPath)
-      expect(NotsFs.isNote(notePath)).toBe(true)
-      expect(NotsFs.isNote(notePathSymlink)).toBe(true)
+      expect(NotesFs.isNote(notePath)).toBe(true)
+      expect(NotesFs.isNote(notePathSymlink)).toBe(true)
 
       atom.config.set('atom-notes.directory', notesDirectoryPathSymlink)
-      expect(NotsFs.isNote(notePath)).toBe(true)
-      expect(NotsFs.isNote(notePathSymlink)).toBe(true)
+      expect(NotesFs.isNote(notePath)).toBe(true)
+      expect(NotesFs.isNote(notePathSymlink)).toBe(true)
     })
   })
 })
