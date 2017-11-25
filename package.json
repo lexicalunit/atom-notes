@@ -38,6 +38,7 @@
     "etch": "^0.12.6",
     "fs-plus": "^3.0.1",
     "fuzzaldrin-plus": "^0.5.0",
+    "gray-matter": "^3.1.1",
     "timsort": "^0.3.0"
   },
   "devDependencies": {

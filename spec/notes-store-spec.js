@@ -14,10 +14,16 @@ describe('NotesStore', () => {
 
     let doc1 = {
       fileName: 'What are the best animals in the world.md',
-      body: 'Dasypodidae are the best animals!'
+      body: '---\n' +
+        'keywords:\n' +
+        '  - Animals\n' +
+        '  - Question\n' +
+        '---\n' +
+        '\n' +
+        'Dasypodidae are the best animals!'
     }
     let doc2 = {
-      fileName: 'Welcome to Atom Notes.markdown',
+      fileName: 'Question is Welcome to Atom Notes.markdown',
       body: `The general idea behind this package is to provide an embedded
              Notational Velocity-like note-taking feature for Atom users.`
     }
@@ -36,18 +42,26 @@ describe('NotesStore', () => {
       expect(results[0].fileName).toBe(doc1.fileName)
       expect(results[0].title).toBe(path.parse(doc1.fileName).name)
       expect(results[0].body).toBe(doc1.body)
+      expect(results[0].keywords).toEqual(['Animals', 'Question'])
+
+      results = store.search('Question')
+      expect(results.length).toBe(2)
+      expect(results[0].fileName).toBe(doc1.fileName)
+      expect(results[1].fileName).toBe(doc2.fileName)
 
       results = store.search('notational velocity')
       expect(results.length).toBe(1)
       expect(results[0].fileName).toBe(doc2.fileName)
       expect(results[0].title).toBe(path.parse(doc2.fileName).name)
       expect(results[0].body).toBe(doc2.body)
+      expect(results[0].keywords).toEqual([])
 
       results = store.search('welcome to')
       expect(results.length).toBe(1)
       expect(results[0].fileName).toBe(doc2.fileName)
       expect(results[0].title).toBe(path.parse(doc2.fileName).name)
       expect(results[0].body).toBe(doc2.body)
+      expect(results[0].keywords).toEqual([])
 
       results = store.search('nothing')
       expect(results.length).toBe(0)
