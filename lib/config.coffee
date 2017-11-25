@@ -33,3 +33,12 @@ module.exports =
       '''
       type: 'boolean',
       default: true
+    orderByFuzzyFileNameMatch:
+      order: 5
+      title: 'Order by Fuzzy File Name Match'
+      description: '''
+        After search results are found from the document index, use
+        fuzzaldrin-plus to order them.
+      '''
+      type: 'boolean'
+      default: false
