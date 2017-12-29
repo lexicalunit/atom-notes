@@ -137,6 +137,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "yanivdll",
+      "name": "Yaniv Gilad",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/675472?v=4",
+      "profile": "http://prodissues.com",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
