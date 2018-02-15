@@ -117,13 +117,13 @@ requests and triage any issues you're having. Please
 If you'd like to take a stab at improving this package, please check out the
 following list of possible improvements.
 
-- [ ] Replace `chokidar` usage with [Atom's new File Watch API][file-watch-api].
 - [ ] Build a notes server to offload processing from the Atom editor.
 - [ ] Does it make sense to utilize etch somehow?
 - [ ] A better screencast animated gif.
 - [ ] Any improvements to package activation time are welcome.
 - [ ] Speed and usability improvements are also always welcome.
 - [ ] Write more spec tests!
+- [x] Replace `chokidar` usage with [Atom's new File Watch API][file-watch-api].
 - [x] Rip out `DocQuery` and [use `search-index` directly][use-search-index].
 - [x] When `DocQuery` match returns nothing, fallback to `fuzzaldrin-plus`.
 - [x] Use async to ensure the notes directory exists in the background.
