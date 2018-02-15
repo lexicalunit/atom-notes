@@ -89,7 +89,7 @@ above.
 
 ## ⚠️ Incompatible Package Error
 
-In versions prior to `1.12.0`, a dependency of Atom Notes used a native module
+In versions prior to `1.16.0`, a dependency of Atom Notes used a native module
 that required compilation for each specific version of Atom. This would cause
 errors whenever Atom updated from one version to the next. You'd know this had
 occurred when:
@@ -117,12 +117,13 @@ requests and triage any issues you're having. Please
 If you'd like to take a stab at improving this package, please check out the
 following list of possible improvements.
 
+- [ ] Fix broken spec tests that fail because the test runner can't do async.
 - [ ] Build a notes server to offload processing from the Atom editor.
-- [ ] Does it make sense to utilize etch somehow?
 - [ ] A better screencast animated gif.
 - [ ] Any improvements to package activation time are welcome.
 - [ ] Speed and usability improvements are also always welcome.
 - [ ] Write more spec tests!
+- [ ] Does it make sense to utilize etch somehow?
 - [x] Replace `chokidar` usage with [Atom's new File Watch API][file-watch-api].
 - [x] Rip out `DocQuery` and [use `search-index` directly][use-search-index].
 - [x] When `DocQuery` match returns nothing, fallback to `fuzzaldrin-plus`.
