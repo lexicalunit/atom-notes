@@ -1,16 +1,16 @@
 /** @babel */
 
-import fs from 'fs-plus'
-import path from 'path'
-import temp from 'temp'
-
-import NotesStore from '../lib/notes-store'
-
-temp.track()
-
 // Writing tests for Atom is awful. For whatever reason, this test
 // that used to pass just fine is now failing with:
 //   timeout: timed out after 5000 msec waiting for module to be ready
+//
+// import fs from 'fs-plus'
+// import path from 'path'
+// import temp from 'temp'
+//
+// import NotesStore from '../lib/notes-store'
+//
+// temp.track()
 //
 // describe('NotesStore', () => {
 //   it('search', () => {
