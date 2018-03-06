@@ -22,13 +22,13 @@ export default {
     this.ready = undefined
     this.doSerialize = true
 
-    // let ChildProcess = require('child_process')
-    // let getPath = require('consistent-path')
-    // const npmCommand = process.platform === 'win32' ? 'npm.cmd' : 'npm'
-    // let p = ChildProcess.spawnSync(npmCommand, ['get', 'prefix'], {
-    //   env: Object.assign(Object.assign({}, process.env), { PATH: getPath() })
-    // }).output[1].toString().trim()
-    // console.log(p)
+    let ChildProcess = require('child_process')
+    let getPath = require('consistent-path')
+    const npmCommand = process.platform === 'win32' ? 'npm.cmd' : 'npm'
+    let p = ChildProcess.spawnSync(npmCommand, ['get', 'prefix'], {
+      env: Object.assign(Object.assign({}, process.env), { PATH: getPath() })
+    }).output[1].toString().trim()
+    console.log(p)
 
     if (state) {
       makeReady(this, state)
