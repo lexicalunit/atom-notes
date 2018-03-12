@@ -186,7 +186,7 @@ specification. Contributions of any kind welcome!
 
 [all-contributors]: https://github.com/kentcdodds/all-contributors
 [emoji-key]:        https://github.com/kentcdodds/all-contributors#emoji-key
-[notes-contrib]:    https://img.shields.io/badge/all_contributors-15-orange.svg?style=shield
+[notes-contrib]:    https://img.shields.io/badge/all_contributors-17-orange.svg?style=shield
 [nvatom-contrib]:   https://img.shields.io/badge/nvatom_contributors-50-orange.svg?style=shield
 
 [autocomplete]:         https://github.com/atom/atom-select-list/issues/12
