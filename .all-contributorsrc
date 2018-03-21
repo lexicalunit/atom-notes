@@ -164,6 +164,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "lodestone",
+      "name": "Matt Petty",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/8401?v=4",
+      "profile": "http://spacerobots.net",
+      "contributions": [
+        "code"
+      ]
     }
   ]
 }
