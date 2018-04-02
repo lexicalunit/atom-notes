@@ -90,10 +90,17 @@ above.
 
 ## Triggering from outside Atom
 
-To toggle the notes view from outside Atom use the URL `atom://atom-notes/toggle`. Atom supports URL schemes only from macOS or Windows. This URL command will operate in the front-most, most recently active, or a new Atom window. It will start Atom if necessary. For example, from macOS:
+To add Atom Notes to the Apple Services menu use this [Apple service][apple-service].
 
-- Call `open atom://atom-notes/toggle` from bash.
-- Install [Alfred](alfred) (requires the Power Pack purchase) and the [alfred-atom-notes workflow](alfred-atom-notes). Then use the configurable shortcut, shift-cmd-j, from inside or outside Atom to toggle the notes view.
+Otherwise in macOS and Windows the URL `atom://atom-notes/toggle` will toggle the notes view.
+The command will operate in the front-most or most recently active window or open a new one. It will
+start Atom if necessary. There are many ways to automate this. For example, in macOS:
+
+- Call `open atom://atom-notes/toggle` from the command line or a script.
+- Use the [Apple service][apple-service] mentioned above.
+- Install [Alfred][alfred] (requires the Power Pack purchase) and the
+[alfred-atom-notes workflow][alfred-atom-notes]. Then use the configurable
+shortcut, shift-cmd-j, from inside or outside Atom to toggle the notes view.
 
 ## ⚠️ Incompatible Package Error
 
@@ -209,7 +216,8 @@ specification. Contributions of any kind welcome!
 [nv]:                   http://notational.net/
 [nvalt]:                http://brettterpstra.com/projects/nvalt/
 [nvatom]:               https://github.com/seongjaelee/nvatom
-[alfed]:                http://www.alfredapp.com
+[alfred]:               http://www.alfredapp.com
 [alfred-atom-notes]:    https://github.com/robwalton/alfred-atom-notes
+[apple-service]:        https://github.com/robwalton/apple-service-atom-notes
 [screencast]:           https://user-images.githubusercontent.com/1903876/28757512-67bb005c-754a-11e7-99bd-5babb98ac056.gif
 [use-search-index]:     https://github.com/seongjaelee/nvatom/issues/35#issuecomment-143653832
