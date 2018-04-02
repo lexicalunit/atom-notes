@@ -32,6 +32,10 @@
   "deserializers": {
     "SearchIndex": "deserializeSearchIndex"
   },
+  "uriHandler": {
+    "method": "handleURI",
+    "deferActivation": false
+  },
   "dependencies": {
     "elasticlunr": "^0.9.5",
     "etch": "^0.12.6",
