@@ -90,17 +90,21 @@ above.
 
 ## Triggering from outside Atom
 
-To add Atom Notes to the Apple Services menu use this [Apple service][apple-service].
+To add Atom Notes to the Apple Services menu and set a keyboard shortcut for use
+outside Atom use this [Apple service][apple-service]. Then use your configured
+shortcut &mdash; see the section on Keybindings, above, for details on
+configuring a shortcut inside Atom &mdash; from inside or outside Atom to toggle
+the notes view.
 
-Otherwise in macOS and Windows the URL `atom://atom-notes/toggle` will toggle the notes view.
-The command will operate in the front-most or most recently active window or open a new one. It will
-start Atom if necessary. There are many ways to automate this. For example, in macOS:
+Alternatively in macOS and Windows the URL `atom://atom-notes/toggle` will
+toggle the notes view. The command will operate in the front-most or most
+recently active window or open a new one. It will start Atom if necessary. There
+are many ways to automate this. For example, in macOS:
 
 - Call `open atom://atom-notes/toggle` from the command line or a script.
 - Use the [Apple service][apple-service] mentioned above.
 - Install [Alfred][alfred] (requires the Power Pack purchase) and the
-[alfred-atom-notes workflow][alfred-atom-notes]. Then use the configurable
-shortcut, shift-cmd-j, from inside or outside Atom to toggle the notes view.
+[alfred-atom-notes workflow][alfred-atom-notes].
 
 ## ⚠️ Incompatible Package Error
 
