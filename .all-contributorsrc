@@ -173,6 +173,17 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "robwalton",
+      "name": "Rob Walton",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1565171?v=4",
+      "profile": "http://diamond.ac.uk",
+      "contributions": [
+        "code",
+        "bug",
+        "doc"
+      ]
     }
   ]
 }
