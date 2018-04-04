@@ -25,10 +25,10 @@ This package provides some similar features embedded directly in your Atom
 editor.
 
 - Modeless Operation
-- Mouseless Interaction
 - Incremental Search
-- Interlinks
-- Triggerable from outside Atom
+- [Mouseless Interaction](#keybindings)
+- [Interlinks](#provided-commands)
+- [Triggerable from outside Atom](#triggering-from-outside-atom)
 
 > **Note:** For interlink syntax highlighting, please install
 >           [`language-atom-notes`][language-atom-notes].
@@ -88,7 +88,7 @@ above.
 - `atom-notes:interlink`: Jumps to referred note when the cursor is on
   an `[[interlink]]`.
 
-## Triggering from outside Atom
+## 💥 Triggering from outside Atom
 
 To add Atom Notes to the Apple Services menu and set a keyboard shortcut for use
 outside Atom use this [Apple service][apple-service]. Then use your configured
