@@ -28,6 +28,7 @@ editor.
 - Mouseless Interaction
 - Incremental Search
 - Interlinks
+- Triggerable from outside Atom
 
 > **Note:** For interlink syntax highlighting, please install
 >           [`language-atom-notes`][language-atom-notes].
@@ -86,6 +87,24 @@ above.
 - `atom-notes:toggle`: Toggle the search box.
 - `atom-notes:interlink`: Jumps to referred note when the cursor is on
   an `[[interlink]]`.
+
+## Triggering from outside Atom
+
+To add Atom Notes to the Apple Services menu and set a keyboard shortcut for use
+outside Atom use this [Apple service][apple-service]. Then use your configured
+shortcut &mdash; see the section on Keybindings, above, for details on
+configuring a shortcut inside Atom &mdash; from inside or outside Atom to toggle
+the notes view.
+
+Alternatively in macOS and Windows the URL `atom://atom-notes/toggle` will
+toggle the notes view. The command will operate in the front-most or most
+recently active window or open a new one. It will start Atom if necessary. There
+are many ways to automate this. For example, in macOS:
+
+- Call `open atom://atom-notes/toggle` from the command line or a script.
+- Use the [Apple service][apple-service] mentioned above.
+- Install [Alfred][alfred] (requires the Power Pack purchase) and the
+[alfred-atom-notes workflow][alfred-atom-notes].
 
 ## ⚠️ Incompatible Package Error
 
@@ -201,5 +220,8 @@ specification. Contributions of any kind welcome!
 [nv]:                   http://notational.net/
 [nvalt]:                http://brettterpstra.com/projects/nvalt/
 [nvatom]:               https://github.com/seongjaelee/nvatom
+[alfred]:               http://www.alfredapp.com
+[alfred-atom-notes]:    https://github.com/robwalton/alfred-atom-notes
+[apple-service]:        https://github.com/robwalton/apple-service-atom-notes
 [screencast]:           https://user-images.githubusercontent.com/1903876/28757512-67bb005c-754a-11e7-99bd-5babb98ac056.gif
 [use-search-index]:     https://github.com/seongjaelee/nvatom/issues/35#issuecomment-143653832
