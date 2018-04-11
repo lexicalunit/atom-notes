@@ -38,19 +38,19 @@
   },
   "dependencies": {
     "elasticlunr": "^0.9.5",
-    "etch": "^0.12.6",
-    "fs-plus": "^3.0.1",
+    "etch": "^0.14.0",
+    "fs-plus": "^3.0.2",
     "fuzzaldrin-plus": "^0.6.0",
-    "gray-matter": "^3.1.1",
+    "gray-matter": "^4.0.1",
     "timsort": "^0.3.0"
   },
   "devDependencies": {
-    "all-contributors-cli": "^4.5.0",
-    "eslint": "^4.8.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.2.0",
-    "eslint-plugin-promise": "^3.5.0",
+    "all-contributors-cli": "^4.11.1",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-standard": "^3.0.1",
     "temp": "^0.8.3"
   }
