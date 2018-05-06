@@ -20,7 +20,7 @@ describe('Interlink', () => {
 
       runs(() => {
         editor = atom.workspace.getActiveTextEditor()
-        waitsFor((done) => {
+        waitsFor(done => {
           editor.getBuffer().onDidSave(() => done())
           editor.save()
         })
@@ -100,9 +100,9 @@ describe('Interlink', () => {
   //     editor.setText('[[Car]]')
   //     editor.setCursorBufferPosition([0, 2])
   //
-  //     waitsFor((done) => {
+  //     waitsFor(done => {
   //       atom.commands.dispatch(atom.views.getView(atom.workspace), 'atom-notes:interlink')
-  //       atom.workspace.observeActiveTextEditor((observedEditor) => {
+  //       atom.workspace.observeActiveTextEditor(observedEditor => {
   //         if (observedEditor.getPath() !== editor.getPath()) done()
   //       })
   //     })
@@ -125,7 +125,7 @@ describe('Interlink', () => {
 
       runs(() => {
         editor = atom.workspace.getActiveTextEditor()
-        waitsFor((done) => {
+        waitsFor(done => {
           editor.getBuffer().onDidSave(() => done())
           editor.save()
         })
