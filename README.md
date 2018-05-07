@@ -1,14 +1,14 @@
 # Atom Notes
 
 [![apm package][apm-ver-link]][releases]
+[![mit][mit-badge]][mit]
 [![travis-ci][travis-ci-badge]][travis-ci]
 [![appveyor][appveyor-badge]][appveyor]
 [![circle-ci][circle-ci-badge]][circle-ci]
 [![david][david-badge]][david]
-[![download][dl-badge]][apm-pkg-link]
-[![mit][mit-badge]][mit]
 [![code-style][code-style-badge]][code-style]
-[![All Contributors][notes-contrib]](#-contributors)
+[![download][dl-badge]][apm-pkg-link]
+[![All Contributors](https://img.shields.io/badge/all_contributors-21-orange.svg?style=flat-square)](#contributors)
 [![nvatom Contributors][nvatom-contrib]][nvatom]
 
 This package is a fork and rewrite of the now unpublished package
@@ -185,19 +185,19 @@ specification. Contributions of any kind welcome!
 [seongjaelee]:      http://github.com/seongjaelee
 
 [apm-pkg-link]:     https://atom.io/packages/atom-notes
-[apm-ver-link]:     https://img.shields.io/apm/v/atom-notes.svg
+[apm-ver-link]:     https://img.shields.io/apm/v/atom-notes.svg?style=shield
 [appveyor-badge]:   https://ci.appveyor.com/api/projects/status/a4fcn60mhewef9r0/branch/master?svg=true
 [appveyor]:         https://ci.appveyor.com/project/lexicalunit/atom-notes?branch=master
 [circle-ci-badge]:  https://circleci.com/gh/lexicalunit/atom-notes/tree/master.svg?style=shield
 [circle-ci]:        https://circleci.com/gh/lexicalunit/atom-notes/tree/master
-[code-style-badge]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
+[code-style-badge]: https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=shield
 [code-style]:       https://standardjs.com/
 [contributors]:     https://github.com/lexicalunit/atom-notes/graphs/contributors
-[david-badge]:      https://david-dm.org/lexicalunit/atom-notes.svg
+[david-badge]:      https://david-dm.org/lexicalunit/atom-notes.svg?style=shield
 [david]:            https://david-dm.org/lexicalunit/atom-notes
-[dl-badge]:         http://img.shields.io/apm/dm/atom-notes.svg
+[dl-badge]:         http://img.shields.io/apm/dm/atom-notes.svg?style=flat-square
 [issues]:           https://github.com/lexicalunit/atom-notes/issues
-[mit-badge]:        https://img.shields.io/apm/l/atom-notes.svg
+[mit-badge]:        https://img.shields.io/apm/l/atom-notes.svg?style=shield
 [mit]:              http://opensource.org/licenses/MIT
 [releases]:         https://github.com/lexicalunit/atom-notes/releases
 [travis-ci-badge]:  https://travis-ci.org/lexicalunit/atom-notes.svg?branch=master
@@ -205,8 +205,7 @@ specification. Contributions of any kind welcome!
 
 [all-contributors]: https://github.com/kentcdodds/all-contributors
 [emoji-key]:        https://github.com/kentcdodds/all-contributors#emoji-key
-[notes-contrib]:    https://img.shields.io/badge/all_contributors-20-orange.svg?style=shield
-[nvatom-contrib]:   https://img.shields.io/badge/nvatom_contributors-50-orange.svg?style=shield
+[nvatom-contrib]:   https://img.shields.io/badge/nvatom_contributors-50-orange.svg?style=flat-square
 
 [autocomplete]:         https://github.com/atom/atom-select-list/issues/12
 [bug-icon]:             https://user-images.githubusercontent.com/1903876/28800778-e8023f22-7613-11e7-9843-bf7b4b1be17a.png
