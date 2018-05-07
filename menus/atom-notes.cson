@@ -7,7 +7,11 @@ menu: [
         {
           label: 'Toggle'
           command: 'atom-notes:toggle'
-        }
+        },
+        {
+          label: 'Toggle Preview'
+          command: 'atom-notes:toggle-preview'
+        },
         {
           label: 'Open Interlink'
           command: 'atom-notes:interlink'

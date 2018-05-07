@@ -193,6 +193,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "instalab",
+      "name": "Samuel Boczek",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/23265116?v=4",
+      "profile": "https://github.com/instalab",
+      "contributions": [
+        "code"
+      ]
     }
   ]
 }
