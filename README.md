@@ -2,12 +2,12 @@
 
 [![apm package][apm-ver-link]][releases]
 [![mit][mit-badge]][mit]
-[![travis-ci][travis-ci-badge]][travis-ci]
+[![code-style][code-style-badge]][code-style]
+<br />[![travis-ci][travis-ci-badge]][travis-ci]
 [![appveyor][appveyor-badge]][appveyor]
 [![circle-ci][circle-ci-badge]][circle-ci]
 [![david][david-badge]][david]
-[![code-style][code-style-badge]][code-style]
-[![download][dl-badge]][apm-pkg-link]
+<br />[![download][dl-badge]][apm-pkg-link]
 [![All Contributors](https://img.shields.io/badge/all_contributors-21-orange.svg?style=flat-square)](#contributors)
 [![nvatom Contributors][nvatom-contrib]][nvatom]
 
