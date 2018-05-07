@@ -85,8 +85,10 @@ Map any of the following commands to your own keyboard shortcuts as described
 above.
 
 - `atom-notes:toggle`: Toggle the search box.
-- `atom-notes:interlink`: Jumps to referred note when the cursor is on
-  an `[[interlink]]`.
+- `atom-notes:toggle-preview`: Toggle the search box, and automatically open
+   Markdown files in preview.
+- `atom-notes:interlink`: Jumps to referred note when the cursor is on an
+  `[[interlink]]`.
 
 ## 💥 Triggering from outside Atom
 
