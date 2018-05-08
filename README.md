@@ -1,14 +1,14 @@
 # Atom Notes
 
 [![apm package][apm-ver-link]][releases]
-[![travis-ci][travis-ci-badge]][travis-ci]
+[![mit][mit-badge]][mit]
+[![code-style][code-style-badge]][code-style]
+<br />[![travis-ci][travis-ci-badge]][travis-ci]
 [![appveyor][appveyor-badge]][appveyor]
 [![circle-ci][circle-ci-badge]][circle-ci]
 [![david][david-badge]][david]
-[![download][dl-badge]][apm-pkg-link]
-[![mit][mit-badge]][mit]
-[![code-style][code-style-badge]][code-style]
-[![All Contributors][notes-contrib]](#-contributors)
+<br />[![download][dl-badge]][apm-pkg-link]
+[![All Contributors](https://img.shields.io/badge/all_contributors-21-orange.svg?style=flat-square)](#contributors)
 [![nvatom Contributors][nvatom-contrib]][nvatom]
 
 This package is a fork and rewrite of the now unpublished package
@@ -85,8 +85,10 @@ Map any of the following commands to your own keyboard shortcuts as described
 above.
 
 - `atom-notes:toggle`: Toggle the search box.
-- `atom-notes:interlink`: Jumps to referred note when the cursor is on
-  an `[[interlink]]`.
+- `atom-notes:toggle-preview`: Toggle the search box, and automatically open
+   Markdown files in preview.
+- `atom-notes:interlink`: Jumps to referred note when the cursor is on an
+  `[[interlink]]`.
 
 ## 💥 Triggering from outside Atom
 
@@ -159,7 +161,7 @@ Thanks goes to these wonderful people ([emoji key][emoji-key]):
 | [<img src="https://avatars1.githubusercontent.com/u/1903876?v=4" width="100px;"/><br /><sub>Amy Troschinetz</sub>](http://lexicalunit.com)<br />[💻](https://github.com/lexicalunit/atom-notes/commits?author=lexicalunit "Code") [📖](https://github.com/lexicalunit/atom-notes/commits?author=lexicalunit "Documentation") [🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Alexicalunit "Bug reports") | [<img src="https://avatars1.githubusercontent.com/u/948301?v=4" width="100px;"/><br /><sub>Seongjae Lee</sub>](http://bluebrown.net)<br />[💻](https://github.com/lexicalunit/atom-notes/commits?author=seongjaelee "Code") [📖](https://github.com/lexicalunit/atom-notes/commits?author=seongjaelee "Documentation") [🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Aseongjaelee "Bug reports") | [<img src="https://avatars1.githubusercontent.com/u/623?v=4" width="100px;"/><br /><sub>Jonathan Hoyt</sub>](http://theprogrammingbutler.com)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Ajonmagic "Bug reports") [💻](https://github.com/lexicalunit/atom-notes/commits?author=jonmagic "Code") | [<img src="https://avatars1.githubusercontent.com/u/6660636?v=4" width="100px;"/><br /><sub>Philip Hodder</sub>](http://www.encodis.com)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Aphilip-hodder "Bug reports") | [<img src="https://avatars1.githubusercontent.com/u/1546080?v=4" width="100px;"/><br /><sub>A. Lloyd Flanagan</sub>](http://adrian-l-flanagan.herokuapp.com)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Aalflanagan "Bug reports") | [<img src="https://avatars2.githubusercontent.com/u/31057217?v=4" width="100px;"/><br /><sub>webdev-skynet</sub>](https://github.com/webdev-skynet)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Awebdev-skynet "Bug reports") | [<img src="https://avatars0.githubusercontent.com/u/9479788?v=4" width="100px;"/><br /><sub>lakonis</sub>](https://github.com/lakonis)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Alakonis "Bug reports") |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | [<img src="https://avatars1.githubusercontent.com/u/1103714?v=4" width="100px;"/><br /><sub>Mike Clark</sub>](http://wassname.org)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Awassname "Bug reports") | [<img src="https://avatars1.githubusercontent.com/u/2096246?v=4" width="100px;"/><br /><sub>Sebastian Daza</sub>](http://sdaza.com)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Asdaza "Bug reports") | [<img src="https://avatars3.githubusercontent.com/u/716307?v=4" width="100px;"/><br /><sub>Alejandro Avilés</sub>](http://twitter.com/OmeGak)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3AOmeGak "Bug reports") | [<img src="https://avatars0.githubusercontent.com/u/4812055?v=4" width="100px;"/><br /><sub>Max Shenfield</sub>](https://www.eventbrite.com)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Amshenfield "Bug reports") | [<img src="https://avatars1.githubusercontent.com/u/19962963?v=4" width="100px;"/><br /><sub>Rob</sub>](https://github.com/rsshel)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Arsshel "Bug reports") | [<img src="https://avatars2.githubusercontent.com/u/306064?v=4" width="100px;"/><br /><sub>Niels-Oliver Walkowski</sub>](http://nowalkowski.de)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3ACutuchiqueno "Bug reports") | [<img src="https://avatars0.githubusercontent.com/u/1544436?v=4" width="100px;"/><br /><sub>Peter</sub>](https://google.com/+PeterHeisig)<br />[💻](https://github.com/lexicalunit/atom-notes/commits?author=phdd "Code") |
-| [<img src="https://avatars2.githubusercontent.com/u/675472?v=4" width="100px;"/><br /><sub>Yaniv Gilad</sub>](http://prodissues.com)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Ayanivdll "Bug reports") | [<img src="https://avatars0.githubusercontent.com/u/10378631?v=4" width="100px;"/><br /><sub>jmroland</sub>](https://github.com/jmroland)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Ajmroland "Bug reports") | [<img src="https://avatars0.githubusercontent.com/u/3603408?v=4" width="100px;"/><br /><sub>jonszcz</sub>](https://github.com/jonszcz)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Ajonszcz "Bug reports") | [<img src="https://avatars3.githubusercontent.com/u/8401?v=4" width="100px;"/><br /><sub>Matt Petty</sub>](http://spacerobots.net)<br />[💻](https://github.com/lexicalunit/atom-notes/commits?author=lodestone "Code") | [<img src="https://avatars1.githubusercontent.com/u/1565171?v=4" width="100px;"/><br /><sub>Rob Walton</sub>](http://diamond.ac.uk)<br />[💻](https://github.com/lexicalunit/atom-notes/commits?author=robwalton "Code") [🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Arobwalton "Bug reports") [📖](https://github.com/lexicalunit/atom-notes/commits?author=robwalton "Documentation") | [<img src="https://avatars2.githubusercontent.com/u/6437525?v=4" width="100px;"/><br /><sub>tthkbw</sub>](https://github.com/tthkbw)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Atthkbw "Bug reports") |
+| [<img src="https://avatars2.githubusercontent.com/u/675472?v=4" width="100px;"/><br /><sub>Yaniv Gilad</sub>](http://prodissues.com)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Ayanivdll "Bug reports") | [<img src="https://avatars0.githubusercontent.com/u/10378631?v=4" width="100px;"/><br /><sub>jmroland</sub>](https://github.com/jmroland)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Ajmroland "Bug reports") | [<img src="https://avatars0.githubusercontent.com/u/3603408?v=4" width="100px;"/><br /><sub>jonszcz</sub>](https://github.com/jonszcz)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Ajonszcz "Bug reports") | [<img src="https://avatars3.githubusercontent.com/u/8401?v=4" width="100px;"/><br /><sub>Matt Petty</sub>](http://spacerobots.net)<br />[💻](https://github.com/lexicalunit/atom-notes/commits?author=lodestone "Code") | [<img src="https://avatars1.githubusercontent.com/u/1565171?v=4" width="100px;"/><br /><sub>Rob Walton</sub>](http://diamond.ac.uk)<br />[💻](https://github.com/lexicalunit/atom-notes/commits?author=robwalton "Code") [🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Arobwalton "Bug reports") [📖](https://github.com/lexicalunit/atom-notes/commits?author=robwalton "Documentation") | [<img src="https://avatars2.githubusercontent.com/u/6437525?v=4" width="100px;"/><br /><sub>tthkbw</sub>](https://github.com/tthkbw)<br />[🐛](https://github.com/lexicalunit/atom-notes/issues?q=author%3Atthkbw "Bug reports") | [<img src="https://avatars2.githubusercontent.com/u/23265116?v=4" width="100px;"/><br /><sub>Samuel Boczek</sub>](https://github.com/instalab)<br />[💻](https://github.com/lexicalunit/atom-notes/commits?author=instalab "Code") |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ### Contributors to nvatom
@@ -185,19 +187,19 @@ specification. Contributions of any kind welcome!
 [seongjaelee]:      http://github.com/seongjaelee
 
 [apm-pkg-link]:     https://atom.io/packages/atom-notes
-[apm-ver-link]:     https://img.shields.io/apm/v/atom-notes.svg
+[apm-ver-link]:     https://img.shields.io/apm/v/atom-notes.svg?style=shield
 [appveyor-badge]:   https://ci.appveyor.com/api/projects/status/a4fcn60mhewef9r0/branch/master?svg=true
 [appveyor]:         https://ci.appveyor.com/project/lexicalunit/atom-notes?branch=master
 [circle-ci-badge]:  https://circleci.com/gh/lexicalunit/atom-notes/tree/master.svg?style=shield
 [circle-ci]:        https://circleci.com/gh/lexicalunit/atom-notes/tree/master
-[code-style-badge]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
+[code-style-badge]: https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=shield
 [code-style]:       https://standardjs.com/
 [contributors]:     https://github.com/lexicalunit/atom-notes/graphs/contributors
-[david-badge]:      https://david-dm.org/lexicalunit/atom-notes.svg
+[david-badge]:      https://david-dm.org/lexicalunit/atom-notes.svg?style=shield
 [david]:            https://david-dm.org/lexicalunit/atom-notes
-[dl-badge]:         http://img.shields.io/apm/dm/atom-notes.svg
+[dl-badge]:         http://img.shields.io/apm/dm/atom-notes.svg?style=flat-square
 [issues]:           https://github.com/lexicalunit/atom-notes/issues
-[mit-badge]:        https://img.shields.io/apm/l/atom-notes.svg
+[mit-badge]:        https://img.shields.io/apm/l/atom-notes.svg?style=shield
 [mit]:              http://opensource.org/licenses/MIT
 [releases]:         https://github.com/lexicalunit/atom-notes/releases
 [travis-ci-badge]:  https://travis-ci.org/lexicalunit/atom-notes.svg?branch=master
@@ -205,8 +207,7 @@ specification. Contributions of any kind welcome!
 
 [all-contributors]: https://github.com/kentcdodds/all-contributors
 [emoji-key]:        https://github.com/kentcdodds/all-contributors#emoji-key
-[notes-contrib]:    https://img.shields.io/badge/all_contributors-20-orange.svg?style=shield
-[nvatom-contrib]:   https://img.shields.io/badge/nvatom_contributors-50-orange.svg?style=shield
+[nvatom-contrib]:   https://img.shields.io/badge/nvatom_contributors-50-orange.svg?style=flat-square
 
 [autocomplete]:         https://github.com/atom/atom-select-list/issues/12
 [bug-icon]:             https://user-images.githubusercontent.com/1903876/28800778-e8023f22-7613-11e7-9843-bf7b4b1be17a.png
