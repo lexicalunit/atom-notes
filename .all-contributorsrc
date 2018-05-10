@@ -202,6 +202,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "rcraggs",
+      "name": "Richard",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3081903?v=4",
+      "profile": "https://github.com/rcraggs",
+      "contributions": [
+        "bug"
+      ]
     }
-  ]
+  ],
+  "repoType": "github"
 }
