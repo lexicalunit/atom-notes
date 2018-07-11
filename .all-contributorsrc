@@ -220,6 +220,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "gbirke",
+      "name": "Gabriel Birke",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/223326?v=4",
+      "profile": "http://www.lebenplusplus.de/",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "repoType": "github"
