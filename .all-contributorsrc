@@ -247,6 +247,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "onesentforth",
+      "name": "Jason West",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/10100089?v=4",
+      "profile": "http://onesentforth.com",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "repoType": "github"
