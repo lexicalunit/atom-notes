@@ -35,7 +35,7 @@ describe('NotesFs', () => {
       let tempDirectoryPath = path.join(temp.mkdirSync())
       let notesDirectoryPath = path.join(temp.mkdirSync())
       let notesDirectoryPathSymlink = path.join(tempDirectoryPath, 'note book')
-      let notePath = path.join(notesDirectoryPath, 'note.md')
+      let notePath = path.join(notesDirectoryPath, 'note.mD')
       let notePathSymlink = path.join(notesDirectoryPathSymlink, 'note symlink.md')
 
       fs.writeFileSync(notePath, 'dummy')
