@@ -256,6 +256,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "tgrrr",
+      "name": "Phil",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4689707?v=4",
+      "profile": "http://botbotdot.com",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "repoType": "github"
