@@ -132,12 +132,19 @@ describe('Interlink', () => {
       })
     })
 
-    it('does NOT open valid interlinks', () => {
+    // I see no reason not to just support interlinks everywhere.
+    it('still does open valid interlinks', () => {
       editor.setText('[[Car]]')
       editor.setCursorBufferPosition([0, 2])
 
       const openPromise = Interlink.openInterlink()
-      expect(openPromise).toBeUndefined()
+      expect(openPromise).not.toBe(undefined)
+      waitsForPromise(() => openPromise)
+
+      runs(() => {
+        const activeEditor = atom.workspace.getActiveTextEditor()
+        expect(activeEditor.getPath().endsWith('Car.md')).toBe(true)
+      })
     })
   })
 })
