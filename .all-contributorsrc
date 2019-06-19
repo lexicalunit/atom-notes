@@ -265,7 +265,17 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "OSoG",
+      "name": "Shin",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/40944996?v=4",
+      "profile": "https://github.com/OSoG",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
-  "repoType": "github"
+  "repoType": "github",
+  "commitConvention": "none"
 }
