@@ -9,8 +9,8 @@ import * as NotesFs from '../lib/notes-fs'
 temp.track()
 
 describe('NotesFs', () => {
-  let defaultDirectory = atom.config.get('atom-notes.directory')
-  let defaultNoteExtensions = atom.config.get('atom-notes.extensions')
+  const defaultDirectory = atom.config.get('atom-notes.directory')
+  const defaultNoteExtensions = atom.config.get('atom-notes.extensions')
 
   afterEach(() => {
     atom.config.set('atom-notes.directory', defaultDirectory)
@@ -32,11 +32,11 @@ describe('NotesFs', () => {
     it('handles symlinks correctly', () => {
       atom.config.set('atom-notes.extensions', ['.md', '.markdown'])
 
-      let tempDirectoryPath = path.join(temp.mkdirSync())
-      let notesDirectoryPath = path.join(temp.mkdirSync())
-      let notesDirectoryPathSymlink = path.join(tempDirectoryPath, 'note book')
-      let notePath = path.join(notesDirectoryPath, 'note.mD')
-      let notePathSymlink = path.join(notesDirectoryPathSymlink, 'note symlink.md')
+      const tempDirectoryPath = path.join(temp.mkdirSync())
+      const notesDirectoryPath = path.join(temp.mkdirSync())
+      const notesDirectoryPathSymlink = path.join(tempDirectoryPath, 'note book')
+      const notePath = path.join(notesDirectoryPath, 'note.mD')
+      const notePathSymlink = path.join(notesDirectoryPathSymlink, 'note symlink.md')
 
       fs.writeFileSync(notePath, 'dummy')
       fs.symlinkSync(notesDirectoryPath, notesDirectoryPathSymlink)
