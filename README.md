@@ -206,6 +206,9 @@ Thanks goes to these wonderful people ([emoji key][emoji-key]):
     <td align="center"><a href="https://github.com/anthrolisp"><img src="https://avatars0.githubusercontent.com/u/36711679?v=4" width="100px;" alt=""/><br /><sub><b>anthrolisp</b></sub></a><br /><a href="#ideas-anthrolisp" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/ljsinclair"><img src="https://avatars3.githubusercontent.com/u/48849797?v=4" width="100px;" alt=""/><br /><sub><b>LJ Sinclair</b></sub></a><br /><a href="#ideas-ljsinclair" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="http://jkamenik.github.io"><img src="https://avatars1.githubusercontent.com/u/165914?v=4" width="100px;" alt=""/><br /><sub><b>John Kamenik</b></sub></a><br /><a href="#ideas-jkamenik" title="Ideas, Planning, & Feedback">🤔</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
