@@ -274,6 +274,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "mlncn",
+      "name": "Benjamin Melançon",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/27131?v=4",
+      "profile": "http://agaric.com",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "repoType": "github",
