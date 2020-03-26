@@ -208,6 +208,7 @@ Thanks goes to these wonderful people ([emoji key][emoji-key]):
   </tr>
   <tr>
     <td align="center"><a href="http://jkamenik.github.io"><img src="https://avatars1.githubusercontent.com/u/165914?v=4" width="100px;" alt=""/><br /><sub><b>John Kamenik</b></sub></a><br /><a href="#ideas-jkamenik" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="http://aswolf.github.io"><img src="https://avatars0.githubusercontent.com/u/2340371?v=4" width="100px;" alt=""/><br /><sub><b>Aaron S. Wolf</b></sub></a><br /><a href="https://github.com/lexicalunit/atom-notes/issues?q=author%3Aaswolf" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
