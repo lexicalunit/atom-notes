@@ -203,6 +203,7 @@ Thanks goes to these wonderful people ([emoji key][emoji-key]):
     <td align="center"><a href="http://oschwery.github.io"><img src="https://avatars2.githubusercontent.com/u/9121238?v=4" width="100px;" alt=""/><br /><sub><b>Orlando Schwery</b></sub></a><br /><a href="https://github.com/lexicalunit/atom-notes/issues?q=author%3Aoschwery" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/aubreyz"><img src="https://avatars3.githubusercontent.com/u/25100168?v=4" width="100px;" alt=""/><br /><sub><b>aubreyz</b></sub></a><br /><a href="#question-aubreyz" title="Answering Questions">💬</a></td>
     <td align="center"><a href="https://github.com/aglime"><img src="https://avatars0.githubusercontent.com/u/28735338?v=4" width="100px;" alt=""/><br /><sub><b>Ashley</b></sub></a><br /><a href="https://github.com/lexicalunit/atom-notes/issues?q=author%3Aaglime" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/anthrolisp"><img src="https://avatars0.githubusercontent.com/u/36711679?v=4" width="100px;" alt=""/><br /><sub><b>anthrolisp</b></sub></a><br /><a href="#ideas-anthrolisp" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
