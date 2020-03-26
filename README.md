@@ -200,6 +200,7 @@ Thanks goes to these wonderful people ([emoji key][emoji-key]):
   <tr>
     <td align="center"><a href="https://github.com/OSoG"><img src="https://avatars0.githubusercontent.com/u/40944996?v=4" width="100px;" alt=""/><br /><sub><b>Shin</b></sub></a><br /><a href="https://github.com/lexicalunit/atom-notes/issues?q=author%3AOSoG" title="Bug reports">🐛</a></td>
     <td align="center"><a href="http://agaric.com"><img src="https://avatars3.githubusercontent.com/u/27131?v=4" width="100px;" alt=""/><br /><sub><b>Benjamin Melançon</b></sub></a><br /><a href="https://github.com/lexicalunit/atom-notes/issues?q=author%3Amlncn" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="http://oschwery.github.io"><img src="https://avatars2.githubusercontent.com/u/9121238?v=4" width="100px;" alt=""/><br /><sub><b>Orlando Schwery</b></sub></a><br /><a href="https://github.com/lexicalunit/atom-notes/issues?q=author%3Aoschwery" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 

@@ -283,6 +283,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "oschwery",
+      "name": "Orlando Schwery",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9121238?v=4",
+      "profile": "http://oschwery.github.io",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "repoType": "github",
